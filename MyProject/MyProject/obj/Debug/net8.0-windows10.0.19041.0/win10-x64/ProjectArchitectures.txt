@@ -1,0 +1,1 @@
+C:\Users\Ayoub\GitHubRepository\TitanProject\MyProject\MyProject\MyProject.csproj;x64
