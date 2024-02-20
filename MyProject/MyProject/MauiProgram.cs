@@ -9,6 +9,7 @@ namespace MyProject
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -16,8 +17,15 @@ namespace MyProject
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainViewModel>();
+
+            builder.Services.AddTransient<NewPage>();
+            builder.Services.AddTransient<NewViewModel>();
+
+            builder.Services.AddTransient<JSONServices>();
 
             return builder.Build();
         }
