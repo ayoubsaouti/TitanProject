@@ -9,7 +9,6 @@ global using MyProject.ViewModel;
 global using MyProject.Model;
 global using MyProject.Services;
 
-
 internal class Globals
 {
     public static List<Titan> myTitans = new();

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
+             xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
+             xmlns:model="clr-namespace:MyProject.Model"
+             x:Class="MyProject.View.NewPage"
+             Title="NewPage">
+
+    <ScrollView>
+        <CollectionView ItemsSource="{Binding myObservableTitans}"
+                       SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Titan">
+                    <Border StrokeThickness="4"
+                            StrokeShape="RoundRectangle 10,10,10,10">
+                        <HorizontalStackLayout>
+                            <Image Source="{Binding Picture}"
+                                   HeightRequest="100"
+                                   Aspect="AspectFill"/>
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Name}"
+                                       Style="{StaticResource SubHeadline}"/>
+                                <Label Text="{Binding Description}"
+                                       Style="{StaticResource SubHeadline}"/>
+                                <Label Text="{Binding Skills}"
+                                       Style="{StaticResource SubHeadline}"/>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ScrollView>
+</ContentPage>

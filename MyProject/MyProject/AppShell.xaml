@@ -3,7 +3,7 @@
     x:Class="MyProject.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MyProject"
+    xmlns:local="clr-namespace:MyProject.View"
     Shell.FlyoutBehavior="Disabled"
     Title="MyProject">
 
