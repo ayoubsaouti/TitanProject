@@ -9,7 +9,7 @@
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
             <HorizontalStackLayout Spacing="10" Padding="10">
-                
+
             </HorizontalStackLayout>
 
             <CollectionView ItemsSource="{Binding myObservableTitans}"
@@ -19,28 +19,50 @@
                         <Border StrokeThickness="4"
                                 StrokeShape="RoundRectangle 10,10,10,10"
                                 Padding="10">
-                            <Grid HeightRequest="100" ColumnDefinitions="0.5*,*">
+                            <Grid HeightRequest="200" ColumnDefinitions="0.5*,*">
                                 <ImageButton    Grid.Column="0"
                                                 HorizontalOptions="Start"
                                                 Source="{Binding Picture}"
                                                 Aspect="AspectFit"
-                                                HeightRequest="100"/>
+                                                HeightRequest="220"/>
                                 <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
-                                    <Label  Text="{Binding Path=Name,StringFormat='   Name: {0:S2}'}" 
+                                    
+                                    <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S2}'}" 
                                             Style="{StaticResource SubHeadline}"
                                             FontSize="15"
                                             HorizontalOptions="Start"
                                             VerticalOptions="Center"/>
-                                    <Label  Text="{Binding Path=Description,StringFormat='   Description: {0:S2}'}" 
-                                            Style="{StaticResource SubHeadline}"
-                                            FontSize="15"
-                                            HorizontalOptions="Start"
-                                            VerticalOptions="Center"/>
-                                    <Label  Text="{Binding Path=Skills,StringFormat='   Skills: {0:S2}'}" 
-                                            Style="{StaticResource SubHeadline}"
-                                            FontSize="15"
-                                            HorizontalOptions="Start"
-                                            VerticalOptions="Center"/>
+
+                                    <Label Text="{Binding Path=Height,StringFormat='Height: {0:S2}'}" 
+                                           Style="{StaticResource SubHeadline}"
+                                           FontSize="15"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"/>
+
+                                    <Label Text="{Binding Path=Abilities,StringFormat='Abilities: {0:S2}'}" 
+                                           Style="{StaticResource SubHeadline}"
+                                           FontSize="15"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"/>
+
+                                    <Label Text="{Binding Path=Current_inheritor,StringFormat='Current_inheritor: {0:S2}'}" 
+                                           Style="{StaticResource SubHeadline}"
+                                           FontSize="15"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"/>
+
+                                    <Label Text="{Binding Path=Former_inheritor,StringFormat='Former_inheritor: {0:S2}'}" 
+                                           Style="{StaticResource SubHeadline}"
+                                           FontSize="15"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"/>
+
+                                    <Label Text="{Binding Path=Allegiance,StringFormat='Allegiance: {0:S2}'}" 
+                                           Style="{StaticResource SubHeadline}"
+                                           FontSize="15"
+                                           HorizontalOptions="Start"
+                                           VerticalOptions="Center"/>
+
                                 </VerticalStackLayout>
                             </Grid>
                         </Border>

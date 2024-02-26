@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,7 +56,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\armored_titan.jpg" />
+	  <None Remove="Resources\Images\assaillant_eren.jpg" />
+	  <None Remove="Resources\Images\assaillant_kruger.jpg" />
 	  <None Remove="Resources\Images\background.png" />
+	  <None Remove="Resources\Images\beast_titan.jpg" />
+	  <None Remove="Resources\Images\cart_titan.jpg" />
+	  <None Remove="Resources\Images\colossal_armin.jpg" />
+	  <None Remove="Resources\Images\female_titan.jpg" />
+	  <None Remove="Resources\Images\machoire_falco.jpg" />
+	  <None Remove="Resources\Images\marteau_lara_tybur.jpg" />
+	  <None Remove="Resources\Images\originel_titan_eren.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>

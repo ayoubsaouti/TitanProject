@@ -19,12 +19,44 @@
                                    HeightRequest="100"
                                    Aspect="AspectFill"/>
                             <VerticalStackLayout>
-                                <Label Text="{Binding Name}"
-                                       Style="{StaticResource SubHeadline}"/>
-                                <Label Text="{Binding Description}"
-                                       Style="{StaticResource SubHeadline}"/>
-                                <Label Text="{Binding Skills}"
-                                       Style="{StaticResource SubHeadline}"/>
+                                <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+                                
+                                <Label Text="{Binding Path=Height,StringFormat='Height: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+                                
+                                <Label Text="{Binding Path=Abilities,StringFormat='Abilities: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+
+                                <Label Text="{Binding Path=Current_inheritor,StringFormat='Current_inheritor: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+
+                                <Label Text="{Binding Path=Former_inheritor,StringFormat='Former_inheritor: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+
+                                <Label Text="{Binding Path=Allegiance,StringFormat='Allegiance: {0:S2}'}" 
+                                       Style="{StaticResource SubHeadline}"
+                                       FontSize="15"
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="Center"/>
+                                
+
+
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
                     </Border>
