@@ -21,11 +21,12 @@ namespace MyProject.Services
                 using var reader = new StreamReader(stream);
                 var contents = await reader.ReadToEndAsync();
                 Globals.myTitans = JsonSerializer.Deserialize<List<Titan>>(contents);
+                await Shell.Current.DisplayAlert("Importation du JSON", "importation reussis !", "OK");
             }
             catch (Exception ex)
             {
 
-                await Shell.Current.DisplayAlert("JSON Load Error!", ex.Message, "OK");
+                await Shell.Current.DisplayAlert("Pas de fichier JSON trouvé", ex.Message, "OK");
             }
 
         }

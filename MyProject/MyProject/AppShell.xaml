@@ -8,8 +8,11 @@
     Title="MyProject">
 
     <ShellContent
-        Title="Home"
+        Title="home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MyCollectionPage}"
+        Route="MyCollectionPage" />
 
 </Shell>

@@ -30,37 +30,47 @@
 
                 <!-- Bouton LOGIN -->
                 <Button
-                    Text="LOGIN" 
+                    Text="Je me connecte" 
                     HorizontalOptions="End" 
                     TextColor="White"
                     BackgroundColor="#26223D"
                     Grid.Row="0"
                     Margin="10"/>
 
-                <!-- Grille pour les boutons SCAN et CHECK MY COLLECTION -->
+                <!-- Grille pour les boutons SCAN / CHECK MY COLLECTION  / LOAD JSON -->
                 <Grid Grid.Row="1" VerticalOptions="Center">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
 
+                    <!-- Boutons SCAN et CHECK MY COLLECTION -->
+                    <Button Text="Scanner mon titan" 
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToScanPageCommand}"
+                            TextColor="White"
+                            BackgroundColor="#26223D"
+                            Grid.Column="0"
+                            Margin="10"
+                            IsEnabled="{Binding IsNotBusy}"/>
 
-                    <Button
-                        Text="SCAN" 
-                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IncButtonCommand}"
-                        TextColor="White"
-                        BackgroundColor="#26223D"
-                        IsEnabled="{Binding IsNotBusy}"
-                        Grid.Column="0"
-                        Margin="10"/>
+                    <Button Text="Consulter ma collection"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToCollectionPageCommand}"
+                            TextColor="White"
+                            BackgroundColor="#26223D"                           
+                            Grid.Column="1"
+                            Margin="10" 
+                            IsEnabled="{Binding IsNotBusy}"/>
 
-                    <Button
-                        Text="CHECK MY COLLECTION"
-                        TextColor="White"
-                        Grid.Column="1"
-                        Margin="10" 
-                        BackgroundColor="#26223D"/>
-                    
+                    <!-- Bouton "Load Json"  -->
+                    <Button Text="Importer ma collection" 
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=LoadJSONCommand}"
+                            TextColor="White"
+                            BackgroundColor="#26223D"
+                            Grid.Column="2"
+                            Margin="10" 
+                            IsEnabled="{Binding IsNotBusy}"/>
                 </Grid>
 
 

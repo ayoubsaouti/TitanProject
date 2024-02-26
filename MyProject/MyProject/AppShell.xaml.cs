@@ -7,7 +7,8 @@ namespace MyProject
             InitializeComponent();
 
             //CREATION DE LA LIAISON DES DEUX PAGES 
-            Routing.RegisterRoute(nameof(NewPage), typeof(NewPage));
+            Routing.RegisterRoute(nameof(NewPage), typeof(NewPage)); 
+            Routing.RegisterRoute(nameof(MyCollectionPage), typeof(MyCollectionPage));
         }
     }
 }

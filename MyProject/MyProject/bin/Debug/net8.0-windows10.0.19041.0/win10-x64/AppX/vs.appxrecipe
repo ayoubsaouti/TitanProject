@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-26T14:07:47.995</Modified>
+      <Modified>2024-02-26T16:41:17.272</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-26T14:07:47.880</Modified>
+      <Modified>2024-02-26T16:41:17.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.runtimeconfig.json">
       <PackagePath>MyProject.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.dll">
       <PackagePath>MyProject.dll</PackagePath>
-      <Modified>2024-02-26T14:07:47.610</Modified>
+      <Modified>2024-02-26T16:41:16.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyProject.exe</PackagePath>
-      <Modified>2024-02-26T14:07:47.614</Modified>
+      <Modified>2024-02-26T16:41:16.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -291,7 +291,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.deps.json">
       <PackagePath>MyProject.deps.json</PackagePath>
-      <Modified>2024-02-26T13:19:05.860</Modified>
+      <Modified>2024-02-26T15:44:42.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

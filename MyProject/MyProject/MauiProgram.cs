@@ -25,6 +25,9 @@ namespace MyProject
             builder.Services.AddTransient<NewPage>();
             builder.Services.AddTransient<NewViewModel>();
 
+            builder.Services.AddTransient<MyCollectionPage>();
+            builder.Services.AddTransient<MyCollectionViewModel>();
+
             builder.Services.AddTransient<JSONServices>();
 
             return builder.Build();
