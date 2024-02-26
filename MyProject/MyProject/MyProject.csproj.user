@@ -12,6 +12,9 @@
     <MauiXaml Update="View\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\MyCollectionPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\NewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -5,39 +5,66 @@
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
              x:Class="MyProject.View.MainPage"
              Title="My Project">
-
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25"
-            BackgroundColor="Turquoise"
-            >
+        <Grid>
             <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight"/>
+                Source="background.png"
+                Aspect="AspectFit"/>
 
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" 
-                TextColor="Black"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" 
-                TextColor="Black"/>
+                <Label
+                    Text="L'attaque des titans"
+                    Style="{StaticResource Headline}"
+                    SemanticProperties.HeadingLevel="Level1" 
+                    TextColor="White"
+                    Grid.Row="0"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"/>
+                
 
-            <Button
-                Text="{Binding S_Count}" 
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IncButtonCommand}"
-                HorizontalOptions="Fill" 
-                BackgroundColor="Beige"
-                TextColor="Black"
-                IsEnabled="{Binding IsNotBusy}"/>
-        </VerticalStackLayout>
+                <!-- Bouton LOGIN -->
+                <Button
+                    Text="LOGIN" 
+                    HorizontalOptions="End" 
+                    TextColor="White"
+                    BackgroundColor="#26223D"
+                    Grid.Row="0"
+                    Margin="10"/>
+
+                <!-- Grille pour les boutons SCAN et CHECK MY COLLECTION -->
+                <Grid Grid.Row="1" VerticalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button
+                        Text="SCAN" 
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=IncButtonCommand}"
+                        TextColor="White"
+                        BackgroundColor="#26223D"
+                        IsEnabled="{Binding IsNotBusy}"
+                        Grid.Column="0"
+                        Margin="10"/>
+
+                    <Button
+                        Text="CHECK MY COLLECTION"
+                        TextColor="White"
+                        Grid.Column="1"
+                        Margin="10" 
+                        BackgroundColor="#26223D"/>
+                    
+                </Grid>
+
+
+            </Grid>
+        </Grid>
     </ScrollView>
 </ContentPage>
