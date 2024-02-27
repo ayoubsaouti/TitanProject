@@ -4,14 +4,9 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
              x:Class="MyProject.View.MainPage"
-             Title="My Project">
+             BackgroundImageSource="background.png">
     <ScrollView>
         <Grid>
-            <Image
-                Source="background.png"
-                Aspect="AspectFit"/>
-
-            <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
@@ -20,11 +15,11 @@
 
                 <Label
                     Text="L'attaque des titans"
-                    Style="{StaticResource Headline}"
-                    SemanticProperties.HeadingLevel="Level1" 
-                    TextColor="White"
+                    TextColor="#26223D"
+                    FontSize="50"
                     Grid.Row="0"
                     FontAttributes="Bold"
+                    TextDecorations="Underline"
                     HorizontalOptions="Center"/>
                 
 
@@ -75,6 +70,5 @@
 
 
             </Grid>
-        </Grid>
     </ScrollView>
 </ContentPage>

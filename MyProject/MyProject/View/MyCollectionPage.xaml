@@ -4,11 +4,13 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
              x:Class="MyProject.View.MyCollectionPage"
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
-             xmlns:model="clr-namespace:MyProject.Model">
+             xmlns:model="clr-namespace:MyProject.Model"
+             BackgroundColor="#26223D">
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-            <HorizontalStackLayout Spacing="10" Padding="10">
+            <HorizontalStackLayout Spacing="10" 
+                                   Padding="10">
 
             </HorizontalStackLayout>
 
@@ -27,37 +29,38 @@
                                                 HeightRequest="220"/>
                                 <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
                                     
-                                    <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S2}'}" 
+                                    
+                                    <Label  Text="{Binding Path=Name,StringFormat='Nom: {0:S2}'}" 
                                             Style="{StaticResource SubHeadline}"
                                             FontSize="15"
                                             HorizontalOptions="Start"
                                             VerticalOptions="Center"/>
 
-                                    <Label Text="{Binding Path=Height,StringFormat='Height: {0:S2}'}" 
+                                    <Label Text="{Binding Path=Height,StringFormat='Poids: {0:S2}'}" 
                                            Style="{StaticResource SubHeadline}"
                                            FontSize="15"
                                            HorizontalOptions="Start"
                                            VerticalOptions="Center"/>
 
-                                    <Label Text="{Binding Path=Abilities,StringFormat='Abilities: {0:S2}'}" 
+                                    <Label Text="{Binding Path=Abilities,StringFormat='Capacités: {0:S2}'}" 
                                            Style="{StaticResource SubHeadline}"
                                            FontSize="15"
                                            HorizontalOptions="Start"
                                            VerticalOptions="Center"/>
 
-                                    <Label Text="{Binding Path=Current_inheritor,StringFormat='Current_inheritor: {0:S2}'}" 
+                                    <Label Text="{Binding Path=Current_inheritor,StringFormat='Héritier actuel: {0:S2}'}" 
                                            Style="{StaticResource SubHeadline}"
                                            FontSize="15"
                                            HorizontalOptions="Start"
                                            VerticalOptions="Center"/>
 
-                                    <Label Text="{Binding Path=Former_inheritor,StringFormat='Former_inheritor: {0:S2}'}" 
+                                    <Label Text="{Binding Path=Former_inheritor,StringFormat='Anciens héritier: {0:S2}'}" 
                                            Style="{StaticResource SubHeadline}"
                                            FontSize="15"
                                            HorizontalOptions="Start"
                                            VerticalOptions="Center"/>
 
-                                    <Label Text="{Binding Path=Allegiance,StringFormat='Allegiance: {0:S2}'}" 
+                                    <Label Text="{Binding Path=Allegiance,StringFormat='Nation: {0:S2}'}" 
                                            Style="{StaticResource SubHeadline}"
                                            FontSize="15"
                                            HorizontalOptions="Start"

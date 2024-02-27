@@ -12,10 +12,9 @@ namespace MyProject.Model
         public string? Name { get; set; }
         public string? Picture { get; set; }
         public string? Height { get; set; }
-
         public string? Abilities { get; set; }
         public string? Current_inheritor { get; set; }
-        public string[]? Former_inheritor { get; set; }
+        public string? Former_inheritor { get; set; }
         public string? Allegiance { get; set; }
 
 
