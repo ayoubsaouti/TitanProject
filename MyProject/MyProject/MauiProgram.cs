@@ -10,6 +10,8 @@ namespace MyProject
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .UseMauiCommunityToolkitMediaElement()
+
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -27,6 +29,12 @@ namespace MyProject
 
             builder.Services.AddTransient<MyCollectionPage>();
             builder.Services.AddTransient<MyCollectionViewModel>();
+
+            builder.Services.AddTransient<ConnectPage>();
+            builder.Services.AddTransient<ConnectViewModel>();
+
+            builder.Services.AddTransient<RegisterPage>();
+            builder.Services.AddTransient<RegisterViewModel>();
 
             builder.Services.AddTransient<JSONServices>();
 

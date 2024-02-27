@@ -199,8 +199,14 @@
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\armored.scale-100.gif">
+      <PackagePath>armored.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\armored_titan.scale-100.jpg">
       <PackagePath>armored_titan.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant.scale-100.gif">
+      <PackagePath>assaillant.scale-100.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant_eren.scale-100.jpg">
       <PackagePath>assaillant_eren.scale-100.jpg</PackagePath>
@@ -208,14 +214,26 @@
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant_kruger.scale-100.jpg">
       <PackagePath>assaillant_kruger.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.png">
-      <PackagePath>background.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_connect.scale-100.jpg">
+      <PackagePath>background_connect.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_main.scale-100.png">
+      <PackagePath>background_main.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_register.scale-100.jpg">
+      <PackagePath>background_register.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beast_titan.scale-100.jpg">
       <PackagePath>beast_titan.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bestial.scale-100.gif">
+      <PackagePath>bestial.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart_titan.scale-100.jpg">
       <PackagePath>cart_titan.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\colossal.scale-100.gif">
+      <PackagePath>colossal.scale-100.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\colossal_armin.scale-100.jpg">
       <PackagePath>colossal_armin.scale-100.jpg</PackagePath>
@@ -225,6 +243,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\female_titan.scale-100.gif">
       <PackagePath>female_titan.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\funder.scale-100.gif">
+      <PackagePath>funder.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jaw.scale-100.gif">
+      <PackagePath>jaw.scale-100.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\machoire_falco.scale-100.jpg">
       <PackagePath>machoire_falco.scale-100.jpg</PackagePath>
@@ -249,6 +273,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\communitytoolkit.maui.core\7.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
       <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\communitytoolkit.maui.mediaelement\3.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.MediaElement.dll">
+      <PackagePath>CommunityToolkit.Maui.MediaElement.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
@@ -348,6 +375,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\nuget.frameworks\6.9.1\lib\netstandard2.0\NuGet.Frameworks.dll">
+      <PackagePath>NuGet.Frameworks.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\system.speech\8.0.0-rc.2.23479.6\runtimes\win\lib\net8.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>

@@ -5,13 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MyProject.View"
     Shell.FlyoutBehavior="Disabled"
-    Title="MyProject">
+    Title="HELBProject">
 
     <ShellContent
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    <ShellContent
-        ContentTemplate="{DataTemplate local:MyCollectionPage}"
-        Route="MyCollectionPage" />
+
 
 </Shell>

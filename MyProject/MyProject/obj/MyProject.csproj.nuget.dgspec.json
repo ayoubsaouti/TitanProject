@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "CommunityToolkit.Maui.MediaElement": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -86,6 +90,10 @@
               "target": "Package",
               "version": "[8.0.1, )",
               "autoReferenced": true
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.9.1, )"
             }
           },
           "imports": [
@@ -134,6 +142,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "CommunityToolkit.Maui.MediaElement": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -155,6 +167,10 @@
               "target": "Package",
               "version": "[8.0.1, )",
               "autoReferenced": true
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.9.1, )"
             }
           },
           "imports": [
@@ -191,6 +207,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "CommunityToolkit.Maui.MediaElement": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -212,6 +232,10 @@
               "target": "Package",
               "version": "[8.0.1, )",
               "autoReferenced": true
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.9.1, )"
             }
           },
           "imports": [
@@ -249,6 +273,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "CommunityToolkit.Maui.MediaElement": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -264,6 +292,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[6.9.1, )"
             }
           },
           "imports": [

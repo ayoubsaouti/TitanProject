@@ -9,6 +9,9 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\ConnectPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -16,6 +19,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\NewPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\RegisterPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

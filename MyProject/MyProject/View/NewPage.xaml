@@ -6,6 +6,9 @@
              xmlns:model="clr-namespace:MyProject.Model"
              x:Class="MyProject.View.NewPage">
 
+
+
+
     <ScrollView>
         <CollectionView ItemsSource="{Binding myObservableTitans}"
                        SelectionMode="None">

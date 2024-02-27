@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
+             xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
+             x:Class="MyProject.View.RegisterPage"
+             BackgroundImageSource="background_register.jpg">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50">
+        <!-- Champ d'email -->
+        <Entry Placeholder="Email" 
+               x:Name="EmailEntry" 
+               TextColor="#26223D"
+               PlaceholderColor="#26223D"
+               BackgroundColor="#B7B7B7"
+               FontAttributes="Bold"/>
+
+        <!-- Champ de mot de passe -->
+        <Entry Placeholder="Mot de passe" 
+               IsPassword="True" 
+               x:Name="PasswordEntry" 
+               TextColor="#26223D"
+               PlaceholderColor="#26223D"
+               BackgroundColor="#B7B7B7"
+               FontAttributes="Bold"/>
+
+        <!-- Bouton de connexion -->
+        <Button Text="Connexion"  
+                HorizontalOptions="FillAndExpand" 
+                Margin="0,20,0,0" 
+                TextColor="#B7B7B7"
+                BackgroundColor="#26223D"
+                FontAttributes="Bold"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

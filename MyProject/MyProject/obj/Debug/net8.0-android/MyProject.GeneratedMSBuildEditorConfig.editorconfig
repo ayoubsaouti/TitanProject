@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyProject.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/saout/Documents/GitHub/TitanProject/MyProject/MyProject/View/ConnectPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.ConnectPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ConnectPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ConnectPage.xaml
+
 [C:/Users/saout/Documents/GitHub/TitanProject/MyProject/MyProject/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.MainPage.xaml
@@ -57,3 +63,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.NewPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\NewPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\NewPage.xaml
+
+[C:/Users/saout/Documents/GitHub/TitanProject/MyProject/MyProject/View/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml

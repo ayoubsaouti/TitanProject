@@ -56,15 +56,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\armored.gif" />
 	  <None Remove="Resources\Images\armored_titan.jpg" />
+	  <None Remove="Resources\Images\assaillant.gif" />
 	  <None Remove="Resources\Images\assaillant_eren.jpg" />
 	  <None Remove="Resources\Images\assaillant_kruger.jpg" />
-	  <None Remove="Resources\Images\background.png" />
+	  <None Remove="Resources\Images\background_connect.jpg" />
+	  <None Remove="Resources\Images\background_main.png" />
+	  <None Remove="Resources\Images\background_register.jpg" />
 	  <None Remove="Resources\Images\beast_titan.jpg" />
+	  <None Remove="Resources\Images\bestial.gif" />
 	  <None Remove="Resources\Images\cart_titan.jpg" />
+	  <None Remove="Resources\Images\colossal.gif" />
 	  <None Remove="Resources\Images\colossal_armin.jpg" />
 	  <None Remove="Resources\Images\female.jpg" />
 	  <None Remove="Resources\Images\female_titan.gif" />
+	  <None Remove="Resources\Images\funder.gif" />
+	  <None Remove="Resources\Images\jaw.gif" />
 	  <None Remove="Resources\Images\machoire_falco.jpg" />
 	  <None Remove="Resources\Images\marteau_lara_tybur.jpg" />
 	  <None Remove="Resources\Images\originel_titan_eren.jpg" />
@@ -72,14 +80,19 @@
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.1" />
+		<PackageReference Include="CommunityToolkit.Maui.MediaElement" Version="3.0.1" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="NuGet.Frameworks" Version="6.9.1" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="AppShell.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ConnectPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\MainPage.xaml">
@@ -89,6 +102,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\NewPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\RegisterPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

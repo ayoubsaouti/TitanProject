@@ -9,13 +9,8 @@ namespace MyProject.ViewModel;
 
 public partial class MainViewModel : BaseViewModel
 {
-    public ObservableCollection<Titan> myObservableTitans { get; } = new();
 
-    public MainViewModel()
-    {
-
-
-    }
+    public MainViewModel(){}
 
     [RelayCommand]
     private async Task GoToScanPage()
@@ -34,6 +29,23 @@ public partial class MainViewModel : BaseViewModel
         await Shell.Current.GoToAsync("MyCollectionPage", true);
         IsBusy = false;
     }
+    [RelayCommand]
+    private async Task GoToConnectPage()
+    {
+        IsBusy = true;
+        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
+        await Shell.Current.GoToAsync("ConnectPage", true);
+        IsBusy = false;
+    }
+    [RelayCommand]
+    private async Task GoToRegisterPage()
+    {
+        IsBusy = true;
+        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
+        await Shell.Current.GoToAsync("RegisterPage", true);
+        IsBusy = false;
+    }
+
 
     [RelayCommand]
     private async Task LoadJSON()
@@ -42,11 +54,6 @@ public partial class MainViewModel : BaseViewModel
         JSONServices MyService = new();
 
         await MyService.GetTitans();
-
-        foreach (var titan in Globals.myTitans)
-        {
-            myObservableTitans.Add(titan);
-        }
 
         IsBusy = false;
     }
