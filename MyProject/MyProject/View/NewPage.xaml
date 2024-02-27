@@ -8,62 +8,18 @@
 
 
 
-
     <ScrollView>
-        <CollectionView ItemsSource="{Binding myObservableTitans}"
-                       SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:Titan">
-                    <Border StrokeThickness="4"
-                            StrokeShape="RoundRectangle 10,10,10,10">
-                        <HorizontalStackLayout>
-                            <Image Source="{Binding Picture}"
-                                   HeightRequest="100"
-                                   Aspect="AspectFill"/>
-                            <VerticalStackLayout>
-                                <Label  Text="{Binding Path=Name,StringFormat='Name: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
-                                
-                                <Label Text="{Binding Path=Height,StringFormat='Height: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
-                                
-                                <Label Text="{Binding Path=Abilities,StringFormat='Abilities: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
+        <VerticalStackLayout>
 
-                                <Label Text="{Binding Path=Current_inheritor,StringFormat='Current_inheritor: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
+            <Button Text="Decouvrir son titan" 
+              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:NewViewModel}}, Path=AddElementCommand}"
+              HorizontalOptions="Center"
+              TextColor="White"
+              BackgroundColor="#26223D"
+              Margin="20"
+              IsEnabled="{Binding IsNotBusy}"/>
 
-                                <Label Text="{Binding Path=Former_inheritor,StringFormat='Former_inheritor: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
-
-                                <Label Text="{Binding Path=Allegiance,StringFormat='Allegiance: {0:S2}'}" 
-                                       Style="{StaticResource SubHeadline}"
-                                       FontSize="15"
-                                       HorizontalOptions="Start"
-                                       VerticalOptions="Center"/>
-                                
-
-
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
-                    </Border>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        </VerticalStackLayout>
     </ScrollView>
+
 </ContentPage>

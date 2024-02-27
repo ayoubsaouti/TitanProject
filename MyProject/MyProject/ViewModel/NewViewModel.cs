@@ -12,10 +12,27 @@ public partial class NewViewModel : BaseViewModel
     public ObservableCollection<Titan> myObservableTitans { get; } = new();
     public NewViewModel()
     {
-
-        foreach (var titan in Globals.myTitans)
-        {
-            myObservableTitans.Add(titan);
-        }
+ 
     }
+    [RelayCommand]
+    private async Task AddElement()
+    {
+        IsBusy = true;
+
+        JSONServices MyService = new();
+
+        Titan NewTitan = new();
+        NewTitan.Name = "Assailliant";
+        NewTitan.Height = "15M";
+        NewTitan.Abilities = "A Acces au souvenir des precedents detenteur";
+        NewTitan.Picture = "assaillant_eren.jpg";
+
+        Globals.myTitans.Add(NewTitan);
+        myObservableTitans.Add(NewTitan);
+
+        await MyService.SetTitans();
+
+        IsBusy = false;
+    }
+
 }

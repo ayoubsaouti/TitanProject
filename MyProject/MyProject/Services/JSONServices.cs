@@ -42,6 +42,7 @@ namespace MyProject.Services
 
                 await JsonSerializer.SerializeAsync(fileStream, Globals.myTitans);
                 await fileStream.DisposeAsync();
+                await Shell.Current.DisplayAlert("Ajout du Titan", " reussis !", "OK");
             }
             catch (Exception ex)
             {
