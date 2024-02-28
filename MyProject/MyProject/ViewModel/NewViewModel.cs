@@ -44,8 +44,9 @@ public partial class NewViewModel : BaseViewModel
             myObservableTitans.Add(myRandomTitan);
             await MyService.SetTitans();
 
-            IsBusy = false;
         }
+        IsBusy = false;
+
     }
 
     private Titan RandomTitan() 
@@ -76,7 +77,7 @@ public partial class NewViewModel : BaseViewModel
         Titan Marteau = new();
         Marteau.Id = 3;
         Marteau.Name = "Titan Marteau";
-        Marteau.Picture = "marteau_lara_tybur.jpg";
+        Marteau.Picture = "marteau.gif";
         Marteau.Height = "~15m";
         Marteau.Abilities = "Durcissement de la structure";
         Marteau.Current_inheritor = "Eren Jaeger";

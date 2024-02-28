@@ -253,6 +253,9 @@
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\machoire_falco.scale-100.jpg">
       <PackagePath>machoire_falco.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau.scale-100.gif">
+      <PackagePath>marteau.scale-100.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau_lara_tybur.scale-100.jpg">
       <PackagePath>marteau_lara_tybur.scale-100.jpg</PackagePath>
     </AppxPackagedFile>

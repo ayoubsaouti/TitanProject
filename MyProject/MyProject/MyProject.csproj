@@ -74,6 +74,7 @@
 	  <None Remove="Resources\Images\funder.gif" />
 	  <None Remove="Resources\Images\jaw.gif" />
 	  <None Remove="Resources\Images\machoire_falco.jpg" />
+	  <None Remove="Resources\Images\marteau.gif" />
 	  <None Remove="Resources\Images\marteau_lara_tybur.jpg" />
 	  <None Remove="Resources\Images\originel_titan_eren.jpg" />
 	</ItemGroup>
