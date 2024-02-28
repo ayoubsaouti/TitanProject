@@ -69,8 +69,8 @@
 	  <None Remove="Resources\Images\cart_titan.jpg" />
 	  <None Remove="Resources\Images\colossal.gif" />
 	  <None Remove="Resources\Images\colossal_armin.jpg" />
-	  <None Remove="Resources\Images\female.jpg" />
-	  <None Remove="Resources\Images\female_titan.gif" />
+	  <None Remove="Resources\Images\female.gif" />
+	  <None Remove="Resources\Images\female_titan.jpg" />
 	  <None Remove="Resources\Images\funder.gif" />
 	  <None Remove="Resources\Images\jaw.gif" />
 	  <None Remove="Resources\Images\machoire_falco.jpg" />

@@ -27,7 +27,7 @@
                                                 Source="{Binding Picture}"
                                                 Aspect="AspectFit"
                                                 HeightRequest="220"/>
-                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" >
                                     
                                     
                                     <Label  Text="{Binding Path=Name,StringFormat='Nom: {0:S2}'}" 

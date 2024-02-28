@@ -6,13 +6,17 @@
              x:Class="MyProject.View.RegisterPage"
              BackgroundImageSource="background_register.jpg">
     <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50">
+        <Label Text="Inscrivez-vous"
+               TextColor="#26223D"
+               FontSize="40"
+               FontAttributes="Bold"
+               Margin="20"/>
         <!-- Champ d'email -->
         <Entry Placeholder="Email" 
                x:Name="EmailEntry" 
                TextColor="#26223D"
                PlaceholderColor="#26223D"
-               BackgroundColor="#B7B7B7"
-               FontAttributes="Bold"/>
+               BackgroundColor="#B7B7B7"/>
 
         <!-- Champ de mot de passe -->
         <Entry Placeholder="Mot de passe" 
@@ -20,11 +24,10 @@
                x:Name="PasswordEntry" 
                TextColor="#26223D"
                PlaceholderColor="#26223D"
-               BackgroundColor="#B7B7B7"
-               FontAttributes="Bold"/>
+               BackgroundColor="#B7B7B7"/>
 
         <!-- Bouton de connexion -->
-        <Button Text="Connexion"  
+        <Button Text="Inscription"  
                 HorizontalOptions="FillAndExpand" 
                 Margin="0,20,0,0" 
                 TextColor="#B7B7B7"
