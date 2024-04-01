@@ -24,8 +24,8 @@ namespace MyProject
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
 
-            builder.Services.AddTransient<NewPage>();
-            builder.Services.AddTransient<NewViewModel>();
+            builder.Services.AddTransient<ScanElement>();
+            builder.Services.AddTransient<ScanElementViewModel>();
 
             builder.Services.AddTransient<MyCollectionPage>();
             builder.Services.AddTransient<MyCollectionViewModel>();

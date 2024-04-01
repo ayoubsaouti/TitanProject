@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace MyProject.ViewModel;
 
-public partial class NewViewModel : BaseViewModel
+public partial class ScanElementViewModel : BaseViewModel
 {
     public ObservableCollection<Titan> myObservableTitans { get; } = new();
     public List<Titan> allOfMyTitans = new List<Titan>();
     public Boolean dejaPosseder = false;
-    public NewViewModel()
+    public ScanElementViewModel()
     {
  
     }

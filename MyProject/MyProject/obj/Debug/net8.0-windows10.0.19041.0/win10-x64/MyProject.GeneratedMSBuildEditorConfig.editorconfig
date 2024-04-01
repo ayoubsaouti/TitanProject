@@ -54,14 +54,14 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.MyCollectio
 build_metadata.AdditionalFiles.TargetPath = View\MyCollectionPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MyCollectionPage.xaml
 
-[C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/NewPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.NewPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\NewPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\NewPage.xaml
-
 [C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml
+
+[C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/ScanElement.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.ScanElement.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ScanElement.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ScanElement.xaml

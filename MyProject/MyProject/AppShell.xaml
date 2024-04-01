@@ -11,7 +11,7 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
-     ContentTemplate="{DataTemplate local:NewPage}"
+     ContentTemplate="{DataTemplate local:ScanElement}"
      Route="NewPage" />
         
 

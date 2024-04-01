@@ -17,7 +17,7 @@ public partial class MainViewModel : BaseViewModel
     {
         IsBusy = true;
         //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("NewPage", true);
+        await Shell.Current.GoToAsync("ScanElement", true);
         IsBusy = false;
     }
 

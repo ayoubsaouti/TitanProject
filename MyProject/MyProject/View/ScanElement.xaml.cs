@@ -1,9 +1,9 @@
 namespace MyProject.View;
 
-public partial class NewPage : ContentPage
+public partial class ScanElement : ContentPage
 {
-    NewViewModel viewModel;
-    public NewPage(NewViewModel viewModel)
+    ScanElementViewModel viewModel;
+    public ScanElement(ScanElementViewModel viewModel)
     {
         this.viewModel = viewModel;
         InitializeComponent();

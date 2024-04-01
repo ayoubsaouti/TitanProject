@@ -4,15 +4,15 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
              xmlns:model="clr-namespace:MyProject.Model"
-             x:Class="MyProject.View.NewPage">
+             x:Class="MyProject.View.ScanElement">
 
 
 
     <ScrollView>
         <VerticalStackLayout>
 
-            <Button Text="Decouvrir son titan" 
-              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:NewViewModel}}, Path=AddElementCommand}"
+            <Button Text="Scan ton titan" 
+              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ScanElementViewModel}}, Path=AddElementCommand}"
               HorizontalOptions="Center"
               TextColor="White"
               BackgroundColor="#26223D"

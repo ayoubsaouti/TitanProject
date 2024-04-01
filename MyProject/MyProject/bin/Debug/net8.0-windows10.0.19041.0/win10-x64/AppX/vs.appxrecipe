@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-27T12:51:28.155</Modified>
+      <Modified>2024-03-27T14:44:38.750</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-27T12:51:27.950</Modified>
+      <Modified>2024-03-27T14:44:38.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.runtimeconfig.json">
       <PackagePath>MyProject.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-04T20:44:48.066</Modified>
+      <Modified>2024-03-27T14:31:47.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.dll">
       <PackagePath>MyProject.dll</PackagePath>
-      <Modified>2024-03-04T20:44:46.166</Modified>
+      <Modified>2024-03-27T14:44:38.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyProject.exe</PackagePath>
-      <Modified>2024-03-04T20:44:46.234</Modified>
+      <Modified>2024-03-27T14:44:38.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -351,7 +351,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.deps.json">
       <PackagePath>MyProject.deps.json</PackagePath>
-      <Modified>2024-03-04T20:44:47.914</Modified>
+      <Modified>2024-03-27T14:35:31.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -360,6 +360,10 @@
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\cameramaui\1.4.5\lib\net7.0-windows10.0.19041\Camera.MAUI.dll">
+      <PackagePath>Camera.MAUI.dll</PackagePath>
+      <Modified>2024-01-05T08:54:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\communitytoolkit.maui\7.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
@@ -509,9 +513,29 @@
       <PackagePath>NuGet.Frameworks.dll</PackagePath>
       <Modified>2024-01-18T00:27:16.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\system.codedom\8.0.0\lib\net8.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2023-10-31T14:59:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\system.io.ports\8.0.0\runtimes\win\lib\net8.0\System.IO.Ports.dll">
+      <PackagePath>System.IO.Ports.dll</PackagePath>
+      <Modified>2023-10-31T15:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\system.management\8.0.0\runtimes\win\lib\net8.0\System.Management.dll">
+      <PackagePath>System.Management.dll</PackagePath>
+      <Modified>2023-10-31T14:59:58.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\system.speech\8.0.0-rc.2.23479.6\runtimes\win\lib\net8.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>
       <Modified>2023-09-29T19:04:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll">
+      <PackagePath>zxing.dll</PackagePath>
+      <Modified>2023-02-23T20:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\zxing.net.maui\0.4.0\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.dll">
+      <PackagePath>ZXing.Net.MAUI.dll</PackagePath>
+      <Modified>2023-10-23T15:16:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
