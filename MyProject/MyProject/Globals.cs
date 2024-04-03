@@ -9,6 +9,9 @@ global using MyProject.ViewModel;
 global using MyProject.Model;
 global using MyProject.Services;
 
+global using Microcharts;
+global using Microcharts.Maui;
+
 internal class Globals
 {
     public static List<Titan> myTitans = new();

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-27T14:44:38.750</Modified>
+      <Modified>2024-04-03T13:31:09.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-27T14:44:38.617</Modified>
+      <Modified>2024-04-03T13:31:08.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.runtimeconfig.json">
       <PackagePath>MyProject.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-27T14:31:47.616</Modified>
+      <Modified>2024-04-03T11:55:36.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.dll">
       <PackagePath>MyProject.dll</PackagePath>
-      <Modified>2024-03-27T14:44:38.138</Modified>
+      <Modified>2024-04-03T13:31:08.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyProject.exe</PackagePath>
-      <Modified>2024-03-27T14:44:38.150</Modified>
+      <Modified>2024-04-03T13:31:08.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -351,7 +351,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.deps.json">
       <PackagePath>MyProject.deps.json</PackagePath>
-      <Modified>2024-03-27T14:35:31.895</Modified>
+      <Modified>2024-04-03T13:28:53.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -380,6 +380,10 @@
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2023-10-24T20:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microcharts.maui\1.0.0\lib\net6.0-windows10.0.19041\Microcharts.Maui.dll">
+      <PackagePath>Microcharts.Maui.dll</PackagePath>
+      <Modified>2023-07-08T15:24:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -512,6 +516,22 @@
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\nuget.frameworks\6.9.1\lib\netstandard2.0\NuGet.Frameworks.dll">
       <PackagePath>NuGet.Frameworks.dll</PackagePath>
       <Modified>2024-01-18T00:27:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\skiasharp\2.88.3\lib\net6.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2022-10-03T22:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\skiasharp.views.maui.controls\2.88.3\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Controls.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Controls.dll</PackagePath>
+      <Modified>2022-10-03T22:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\skiasharp.views.maui.core\2.88.3\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Core.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Core.dll</PackagePath>
+      <Modified>2022-10-03T22:37:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\skiasharp.views.winui\2.88.3\lib\net6.0-windows10.0.19041.0\SkiaSharp.Views.Windows.dll">
+      <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
+      <Modified>2022-10-03T22:36:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\system.codedom\8.0.0\lib\net8.0\System.CodeDom.dll">
       <PackagePath>System.CodeDom.dll</PackagePath>
@@ -680,6 +700,10 @@
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\skiasharp.nativeassets.win32\2.88.3\runtimes\win-x64\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2022-10-03T22:36:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MSaou\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

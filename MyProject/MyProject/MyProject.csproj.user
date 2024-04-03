@@ -26,6 +26,9 @@
     <MauiXaml Update="View\MyCollectionPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\Representation.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\ScanElement.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

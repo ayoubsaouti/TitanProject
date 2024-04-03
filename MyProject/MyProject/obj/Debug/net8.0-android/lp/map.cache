@@ -215,3 +215,8 @@ androidx.camera.camera-view.aar
 androidx.camera.camera-camera2.aar
 Xamarin.Google.AutoValue.Annotations.aar
 ZXing.Net.MAUI.aar
+Microcharts.Maui.dll
+SkiaSharp.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Maui.Controls.dll
+SkiaSharp.Views.Maui.Core.dll

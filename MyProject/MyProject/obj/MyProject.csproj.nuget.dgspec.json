@@ -77,6 +77,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -155,6 +159,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
+            },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -235,6 +243,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -314,6 +326,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
+            },
+            "Microcharts.Maui": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

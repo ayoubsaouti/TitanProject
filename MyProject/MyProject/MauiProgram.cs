@@ -11,6 +11,7 @@ namespace MyProject
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
                 .UseMauiCommunityToolkitMediaElement()
+                .UseMicrocharts()
 
                 .ConfigureFonts(fonts =>
                 {
@@ -35,6 +36,10 @@ namespace MyProject
 
             builder.Services.AddTransient<RegisterPage>();
             builder.Services.AddTransient<RegisterViewModel>();
+
+
+            builder.Services.AddTransient<Representation>();
+            builder.Services.AddTransient<RepresentationViewModel>();
 
             builder.Services.AddTransient<JSONServices>();
 

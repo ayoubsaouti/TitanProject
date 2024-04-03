@@ -586,3 +586,9 @@ C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-win
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Management.dll
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\zxing.dll
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZXing.Net.MAUI.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microcharts.Maui.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
