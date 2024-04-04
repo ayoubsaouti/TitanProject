@@ -60,11 +60,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.RegisterPag
 build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml
 
-[C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/Representation.xaml]
+[C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/RepresentaionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.Representation.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Representation.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Representation.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyProject.View.RepresentaionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RepresentaionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RepresentaionPage.xaml
 
 [C:/Users/MSaou/Desktop/Git/TitanProject/MyProject/MyProject/View/ScanElement.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

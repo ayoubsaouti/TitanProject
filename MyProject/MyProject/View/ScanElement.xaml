@@ -6,18 +6,69 @@
              xmlns:model="clr-namespace:MyProject.Model"
              x:Class="MyProject.View.ScanElement">
 
-
-
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50" WidthRequest="300">
+
+            <!-- Champ id -->
+            <Entry Placeholder="Id" 
+                   Text="{Binding Id}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ nom -->
+            <Entry Placeholder="Nom" 
+                   Text="{Binding Name}" 
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ Height -->
+            <Entry Placeholder="Taille" 
+                   Text="{Binding Height}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ Abilities -->
+            <Entry Placeholder="Capacités" 
+                   Text="{Binding Abilities}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ Current_inheritor -->
+            <Entry Placeholder="Héritier actuel" 
+                   Text="{Binding Current_inheritor}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ Former_inheritor -->
+            <Entry Placeholder="Ancien héritier" 
+                   Text="{Binding Former_inheritor}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Champ Allegiance -->
+            <Entry Placeholder="Allégeance" 
+                   Text="{Binding Allegiance}" 
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
+
+            <!-- Image -->
+            <Button Text="Sélectionner une image" 
+                    Command="{Binding SelectImageCommand}" 
+                    TextColor="White"
+                    BackgroundColor="#26223D"/>
 
             <Button Text="Scan ton titan" 
-              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ScanElementViewModel}}, Path=AddElementCommand}"
-              HorizontalOptions="Center"
-              TextColor="White"
-              BackgroundColor="#26223D"
-              Margin="20"
-              IsEnabled="{Binding IsNotBusy}"/>
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ScanElementViewModel}}, Path=AddElementCommand}"
+                    TextColor="White"
+                    BackgroundColor="#26223D"
+                    IsEnabled="{Binding IsNotBusy}"/>
 
         </VerticalStackLayout>
     </ScrollView>

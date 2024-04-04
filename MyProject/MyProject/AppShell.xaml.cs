@@ -11,6 +11,7 @@ namespace MyProject
             Routing.RegisterRoute(nameof(MyCollectionPage), typeof(MyCollectionPage));
             Routing.RegisterRoute(nameof(ConnectPage), typeof(ConnectPage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
+            Routing.RegisterRoute(nameof(RepresentationPage), typeof(RepresentationPage));
 
         }
     }

@@ -36,6 +36,8 @@
                 BackgroundColor="#26223D"
                 FontAttributes="Bold"/>
 
+        
+
         <!-- Liens supplémentaires ou actions -->
         <Label Text="Mot de passe oublié ?" 
                TextColor="#26223D" 

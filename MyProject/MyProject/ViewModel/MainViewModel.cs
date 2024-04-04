@@ -12,25 +12,12 @@ namespace MyProject.ViewModel;
 public partial class MainViewModel : BaseViewModel
 
 {
-    [ObservableProperty]
-    DeviceOrientationService myScanner;
-
-    [ObservableProperty]
-    string? codeBar;
-    
 
     public MainViewModel()
     {
-        this.myScanner = new();
-        myScanner.ConfigureScanner();
-        myScanner.SerialBuffer.Changed += OnBarCodeScanned;
+       
     }
-    private void OnBarCodeScanned(object sender, EventArgs arg)
-    {
-        DeviceOrientationService.QueueBuffer MyLocalBuffer = (DeviceOrientationService.QueueBuffer)sender;
-
-        CodeBar = MyLocalBuffer.Dequeue().ToString();
-    }
+   
 
     [RelayCommand]
     private async Task GoToScanPage()
@@ -63,6 +50,16 @@ public partial class MainViewModel : BaseViewModel
         IsBusy = true;
         //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
         await Shell.Current.GoToAsync("RegisterPage", true);
+        IsBusy = false;
+    }
+
+
+    [RelayCommand]
+    private async Task GoToChart()
+    {
+        IsBusy = true;
+        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
+        await Shell.Current.GoToAsync("RepresentationPage", true);
         IsBusy = false;
     }
 

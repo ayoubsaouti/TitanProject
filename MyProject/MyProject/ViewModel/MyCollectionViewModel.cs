@@ -23,7 +23,9 @@ public partial class MyCollectionViewModel : BaseViewModel
             myObservableTitans.Add(titan);
         }
     }
-    
+
+   
+
 
 
 

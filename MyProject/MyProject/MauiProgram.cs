@@ -38,7 +38,7 @@ namespace MyProject
             builder.Services.AddTransient<RegisterViewModel>();
 
 
-            builder.Services.AddTransient<Representation>();
+            builder.Services.AddTransient<RepresentationPage>();
             builder.Services.AddTransient<RepresentationViewModel>();
 
             builder.Services.AddTransient<JSONServices>();
