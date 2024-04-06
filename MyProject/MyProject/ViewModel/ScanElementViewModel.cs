@@ -17,6 +17,7 @@ public partial class ScanElementViewModel : BaseViewModel
 
     [ObservableProperty]
     DeviceOrientationService myScanner;
+    private String selectedImageSource;
 
     [ObservableProperty]
     string? codeBar;
@@ -24,13 +25,19 @@ public partial class ScanElementViewModel : BaseViewModel
 
     [ObservableProperty]
     private int id;
+    [ObservableProperty]
     private String name;
+    [ObservableProperty]
     private String height;
+    [ObservableProperty]
     private String abilities;
+    [ObservableProperty]
     private String current_inheritor;
+    [ObservableProperty]
     private String former_inheritor;
+    [ObservableProperty]
     private String allegiance;
-    private String selectedImageSource;
+    
 
 
     public string SelectedImageSource
@@ -72,7 +79,7 @@ public partial class ScanElementViewModel : BaseViewModel
 
             if (result != null)
             {
-                SelectedImageSource = result.FullPath;
+                SelectedImageSource = result.FileName;
             }
         }
         catch (Exception ex)
@@ -86,51 +93,49 @@ public partial class ScanElementViewModel : BaseViewModel
     [RelayCommand]
     private async Task AddElement()
     {
-        Console.WriteLine(id);
-        Console.WriteLine(height);
-        Console.WriteLine(selectedImageSource);
-        Console.WriteLine(abilities);
-        Console.WriteLine(current_inheritor);
-        Console.WriteLine(former_inheritor);
-        Console.WriteLine(allegiance);
 
-
-
-        IsBusy = true;
-        JSONServices MyService = new();
-
-        Titan newTitan = new Titan();
-        newTitan.Id = id;
-        newTitan.Name = height;
-        newTitan.Picture = selectedImageSource;
-        newTitan.Abilities = abilities;
-        newTitan.Current_inheritor = current_inheritor;
-        newTitan.Former_inheritor = former_inheritor;
-        newTitan.Allegiance = allegiance;
-
-
-        foreach (var mytitan in Globals.myTitans)
+        if (id != null && name != null && selectedImageSource != null && height != null && abilities != null && current_inheritor != null && former_inheritor != null && allegiance != null)
         {
-            if (mytitan.Id.Equals(newTitan.Id))
+            IsBusy = true;
+            JSONServices MyService = new();
+
+            Titan newTitan = new Titan();
+            newTitan.Id = id;
+            newTitan.Name = name;
+            newTitan.Picture = selectedImageSource;
+            newTitan.Height = height;
+            newTitan.Abilities = abilities;
+            newTitan.Current_inheritor = current_inheritor;
+            newTitan.Former_inheritor = former_inheritor;
+            newTitan.Allegiance = allegiance;
+
+
+            foreach (var mytitan in Globals.myTitans)
             {
-                dejaPosseder = true;
+                if (mytitan.Id.Equals(newTitan.Id))
+                {
+                    dejaPosseder = true;
+                }
             }
-        }
-        if (dejaPosseder == true)
-        {
-            await Shell.Current.DisplayAlert("Titan deja posseder", "L'id existe déjà dans la collection", "OK");
-            dejaPosseder = false;
-        }
-        else
-        {
+            if (dejaPosseder == true)
+            {
+                await Shell.Current.DisplayAlert("Titan deja posseder", "L'id existe déjà dans la collection", "OK");
+                dejaPosseder = false;
+            }
+            else
+            {
 
-            Globals.myTitans.Add(newTitan);
-            myObservableTitans.Add(newTitan);
-            await MyService.SetTitans();
+                Globals.myTitans.Add(newTitan);
+                myObservableTitans.Add(newTitan);
+                await MyService.SetTitans();
+
+            }
+            IsBusy = false;
+        }
+        else {
+            await Shell.Current.DisplayAlert("Erreur", "Un ou plusieurs champ(s) vide(s)", "OK");
 
         }
-        IsBusy = false;
-
 
 
     }

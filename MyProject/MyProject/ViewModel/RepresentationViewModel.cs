@@ -14,56 +14,57 @@ namespace MyProject.ViewModel
 
 
         [ObservableProperty]
-        public Chart myObservableChart = new RadarChart();
+        public Chart myObservableChart;
 
-        public ObservableCollection<ChartEntry> Entries { get; } = new ObservableCollection<ChartEntry>();
+        [ObservableProperty]
+        public Chart myObservableChartDonut;
 
+        List<ChartEntry> chartEntries = new List<ChartEntry>();
+        Random random = new Random();
 
-
-        private void LoadData()
-        {
-            // Supposons que vous ayez une liste de Titans
-            var titans = GetTitansFromSomewhere();
-
-            // Pour chaque Titan, créez un ChartEntry avec Name et Allegiance
-            foreach (var titan in titans)
-            {
-                Entries.Add(new ChartEntry(1) // La valeur n'importe pas pour un radar
-                {
-                    Label = titan.Name,
-                    ValueLabel = titan.Allegiance,
-                    Color = SKColor.Parse("#b455b6")
-                });
-            }
-        }
-        
-            
-        
-
-        // Méthode factice pour récupérer une liste de Titans
-        private List<Titan> GetTitansFromSomewhere()
-        {
-            // Implementez cette méthode pour récupérer vos données Titan
-            return new List<Titan>();
-        }
 
         public RepresentationViewModel()
         {
-            LoadData();
-            Entries = new ObservableCollection<ChartEntry>();
-
-
-            Chart myChart = new RadarChart
-            {
-                Entries = Entries
-            };
-
-            MyObservableChart = myChart;
+            if (Globals.myTitans != null) addCharacterToChartList();
         }
 
 
+        private void addCharacterToChartList()
+        {
+            Dictionary<string, int> allegianceCounts = new Dictionary<string, int>();
 
+            // Compter le nombre de fois que chaque allégeance apparaît
+            foreach (Titan titan in Globals.myTitans)
+            {
+                string allegiance = titan.Allegiance;
+                if (allegianceCounts.ContainsKey(allegiance))
+                {
+                    allegianceCounts[allegiance]++;
+                }
+                else
+                {
+                    allegianceCounts[allegiance] = 1;
+                }
+            }
 
+            // Créer des entrées de graphique à partir des comptes d'allégeance
+            List<ChartEntry> chartEntries = new List<ChartEntry>();
+            foreach (var id in allegianceCounts)
+            {
+                SKColor randomColor = new SKColor((byte)random.Next(0, 256), (byte)random.Next(0, 256), (byte)random.Next(0, 256));
+                ChartEntry entry = new ChartEntry(id.Value)
+                {
+                    Label = id.Key,
+                    ValueLabel = id.Value.ToString(),
+                    Color = randomColor
+                };
+                chartEntries.Add(entry);
+            }
 
+            // Créer les graphiques avec les entrées créées
+            MyObservableChart = new LineChart { Entries = chartEntries.ToArray() };
+            myObservableChartDonut = new DonutChart { Entries = chartEntries.ToArray() };
+
+        }
     }
 }

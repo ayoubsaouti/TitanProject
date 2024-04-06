@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"             
@@ -57,7 +58,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Boutons SCAN et CHECK MY COLLECTION -->
-                <Button Text="Scanner mon titan" 
+                <Button Text="Ajouter un titan" 
                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToScanPageCommand}"
                 TextColor="White"
                 BackgroundColor="#26223D"
@@ -84,7 +85,7 @@
                 IsEnabled="{Binding IsNotBusy}"/>
 
 
-                <Button Text="Voir la representation" 
+                <Button Text="Representation graphique"
                  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToChartCommand}"
                  TextColor="White"
                  BackgroundColor="#26223D"
