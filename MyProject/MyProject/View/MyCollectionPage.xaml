@@ -121,6 +121,77 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            
+            <Grid>
+                <!-- Colonnes de gauche -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Paires de CheckBox et Label dans la première colonne -->
+                <StackLayout Grid.Column="0" Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsNameChecked}" />
+                        <Label Text="Name" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsAbilitiesChecked}" />
+                        <Label Text="Abilities" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Paires de CheckBox et Label dans la deuxième colonne -->
+                <StackLayout Grid.Column="1" Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsCurrentInheritorChecked}" />
+                        <Label Text="Current_inheritor" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsHeightChecked}" />
+                        <Label Text="Height" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+                <!-- Paires de CheckBox et Label dans la troisième colonne -->
+                <StackLayout Grid.Column="2" Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsFormerInheritorChecked}" />
+                        <Label Text="Former_inheritor" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsAllegianceChecked}" />
+                        <Label Text="Allegiance" 
+                               FontSize="15"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+            <!-- Button EXPORT -->
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button Text="Exporter en fichier CSV"
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MyCollectionViewModel}}, Path=ExportToCSVCommand}"
+                        TextColor="#26223D"
+                        BackgroundColor="White"
+                        IsEnabled="{Binding IsNotBusy}"
+                        Margin="0,0,0,30"/>
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
