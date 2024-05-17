@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyProject.Service;
+namespace MyProject.Services;
 public partial class DeviceOrientationService
 {
     SerialPort? mySerialPort;

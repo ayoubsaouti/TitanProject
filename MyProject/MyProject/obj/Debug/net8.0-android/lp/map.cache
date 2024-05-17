@@ -220,3 +220,4 @@ SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Maui.Controls.dll
 SkiaSharp.Views.Maui.Core.dll
+Microsoft.Identity.Client.dll

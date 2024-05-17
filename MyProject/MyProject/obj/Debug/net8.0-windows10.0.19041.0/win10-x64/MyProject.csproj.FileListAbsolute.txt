@@ -534,15 +534,6 @@ C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-win
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\armored_titan.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant_eren.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant_kruger.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beast_titan.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart_titan.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\machoire_falco.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau_lara_tybur.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\originel_titan_eren.scale-100.jpg
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\colossal_armin.scale-100.jpg
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.MediaElement.dll
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NuGet.Frameworks.dll
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant.scale-100.gif
@@ -568,7 +559,6 @@ C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-win
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\female.scale-100.gif
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau.scale-100.gif
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\female.scale-100.gif
-C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\female_titan.scale-100.jpg
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau.scale-100.gif
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Camera.MAUI.dll
 C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.CodeDom.dll
@@ -595,3 +585,4 @@ C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ZXing.Net.MAUI.dll
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
 C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart_titan.scale-100.gif
+C:\Users\MSaou\Desktop\Git\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart_titan.scale-100.gif
