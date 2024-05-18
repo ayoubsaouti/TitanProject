@@ -67,7 +67,7 @@
                 IsEnabled="{Binding IsNotBusy}"/>
 
 
-                <Button Text="Consulter ma collection"
+                <Button Text="Consulter et exporter ma collection"
                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToCollectionPageCommand}"
                 TextColor="White"
                 BackgroundColor="#26223D"                           

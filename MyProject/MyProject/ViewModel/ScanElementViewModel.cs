@@ -94,25 +94,17 @@ public partial class ScanElementViewModel : BaseViewModel
     private async Task AddElement()
     {
 
-        if (id != null && name != null && selectedImageSource != null && height != null && abilities != null && current_inheritor != null && former_inheritor != null && allegiance != null)
+        if (id != null && name != null && selectedImageSource != null && height != null && abilities != null 
+            && current_inheritor != null && former_inheritor != null && allegiance != null)
         {
             IsBusy = true;
             JSONServices MyService = new();
 
-            Titan newTitan = new Titan();
-            newTitan.Id = id;
-            newTitan.Name = name;
-            newTitan.Picture = selectedImageSource;
-            newTitan.Height = height;
-            newTitan.Abilities = abilities;
-            newTitan.Current_inheritor = current_inheritor;
-            newTitan.Former_inheritor = former_inheritor;
-            newTitan.Allegiance = allegiance;
-
-
+            Titan newTitan = new Titan(id, name, selectedImageSource, height, abilities, current_inheritor, former_inheritor, allegiance);
+            
             foreach (var mytitan in Globals.myTitans)
             {
-                if (mytitan.Id.Equals(newTitan.Id))
+                if (mytitan.IdTitan.Equals(newTitan.IdTitan))
                 {
                     dejaPosseder = true;
                 }

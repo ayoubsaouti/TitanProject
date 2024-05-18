@@ -5,15 +5,16 @@
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
              x:Class="MyProject.View.RegisterPage"
              BackgroundImageSource="background_register.jpg">
+    
     <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50">
         <Label Text="Inscrivez-vous"
                TextColor="#26223D"
                FontSize="40"
                FontAttributes="Bold"
                Margin="20"/>
-        <!-- Champ d'email -->
-        <Entry Placeholder="Email" 
-               x:Name="EmailEntry" 
+        <!-- Champ username -->
+        <Entry Placeholder="Username"
+               x:Name="UsernameEntry"
                TextColor="#26223D"
                PlaceholderColor="#26223D"
                BackgroundColor="#B7B7B7"/>
@@ -28,11 +29,15 @@
 
         <!-- Bouton de connexion -->
         <Button Text="Inscription"  
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RegisterViewModel}}, Path=SaveUsersInDBCommand}"
                 HorizontalOptions="FillAndExpand" 
                 Margin="0,20,0,0" 
                 TextColor="#B7B7B7"
                 BackgroundColor="#26223D"
-                FontAttributes="Bold"/>
+                FontAttributes="Bold"
+                IsEnabled="{Binding IsNotBusy}"/>
+
+
 
 
     </VerticalStackLayout>

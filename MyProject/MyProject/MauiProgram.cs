@@ -37,7 +37,6 @@ namespace MyProject
             builder.Services.AddTransient<RegisterPage>();
             builder.Services.AddTransient<RegisterViewModel>();
 
-
             builder.Services.AddTransient<RepresentationPage>();
             builder.Services.AddTransient<RepresentationViewModel>();
 

@@ -2,8 +2,11 @@ namespace MyProject.View;
 
 public partial class RegisterPage : ContentPage
 {
-	public RegisterPage()
+    RegisterViewModel viewModel;
+    public RegisterPage(RegisterViewModel viewModel)
 	{
+        this.viewModel = viewModel;
 		InitializeComponent();
+        BindingContext = viewModel;
 	}
 }
