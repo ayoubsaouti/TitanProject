@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-18T12:48:51.274</Modified>
+      <Modified>2024-05-18T13:26:52.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-18T12:48:51.141</Modified>
+      <Modified>2024-05-18T13:26:52.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.runtimeconfig.json">
       <PackagePath>MyProject.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-17T16:23:01.012</Modified>
+      <Modified>2024-05-18T13:26:52.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.dll">
       <PackagePath>MyProject.dll</PackagePath>
-      <Modified>2024-05-18T12:48:50.747</Modified>
+      <Modified>2024-05-18T13:26:50.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyProject.exe</PackagePath>
-      <Modified>2024-05-18T12:48:50.751</Modified>
+      <Modified>2024-05-18T13:26:50.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -315,7 +315,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.deps.json">
       <PackagePath>MyProject.deps.json</PackagePath>
-      <Modified>2024-05-17T16:23:00.897</Modified>
+      <Modified>2024-05-18T13:26:52.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -589,6 +589,22 @@
       <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
       <Modified>2022-10-03T22:36:52.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\sqlitepclraw.bundle_green\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2022-09-18T19:28:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:27:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\system.identitymodel.tokens.jwt\6.35.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
       <Modified>2023-12-01T04:31:48.000</Modified>
@@ -780,6 +796,10 @@
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\skiasharp.nativeassets.win32\2.88.3\runtimes\win-x64\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>
       <Modified>2022-10-03T22:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.2\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2022-09-18T19:20:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

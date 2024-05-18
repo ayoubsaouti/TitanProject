@@ -14,22 +14,22 @@
                Margin="20"/>
         <!-- Champ username -->
         <Entry Placeholder="Username"
-               x:Name="UsernameEntry"
+               Text="{Binding Username}" 
                TextColor="#26223D"
                PlaceholderColor="#26223D"
                BackgroundColor="#B7B7B7"/>
 
         <!-- Champ de mot de passe -->
         <Entry Placeholder="Mot de passe" 
+               Text="{Binding Password}" 
                IsPassword="True" 
-               x:Name="PasswordEntry" 
                TextColor="#26223D"
                PlaceholderColor="#26223D"
                BackgroundColor="#B7B7B7"/>
 
         <!-- Bouton de connexion -->
         <Button Text="Inscription"  
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RegisterViewModel}}, Path=SaveUsersInDBCommand}"
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RegisterViewModel}}, Path=RegisterCommand}"
                 HorizontalOptions="FillAndExpand" 
                 Margin="0,20,0,0" 
                 TextColor="#B7B7B7"

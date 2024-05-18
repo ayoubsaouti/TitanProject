@@ -15,6 +15,7 @@ public partial class RegisterViewModel : BaseViewModel
     private string username;
     [ObservableProperty]
     private string password;
+
     DataAccessService MyDBService;
 
     /// Commande pour l'inscription.
@@ -25,24 +26,23 @@ public partial class RegisterViewModel : BaseViewModel
         RegisterCommand = new Command(async () => await SaveUsersInDB());
     }
 
+
     
 
-
+    
     private async Task SaveUsersInDB()
     {
         IsBusy = true;
 
-        await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenu lors de l'enregistrement de votre compte à la base de donnée", "OK");
-
         //verifie si les champs sont vide
-        if (username.IsNullOrEmpty() || username.IsNullOrEmpty())
+        if (Username.IsNullOrEmpty() || Password.IsNullOrEmpty())
         {
             await Shell.Current.DisplayAlert("Champs vide", "Un ou plusieurs n'ont pas été remplis", "OK");
         }
         else
         {
             //c'est pas vide donc on créer l'utilisateur et Guid.NewGuid().ToString() pour créer un id unique
-            User newUser = new User(Guid.NewGuid().ToString(), username, password);
+            User newUser = new User(Guid.NewGuid().ToString(), Username, Password);
 
             try
             {

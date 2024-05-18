@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace MyProject
 {
@@ -43,6 +44,8 @@ namespace MyProject
             builder.Services.AddTransient<JSONServices>();
 
             return builder.Build();
+
+            builder.Services.AddDbContext<DataAccessService>(e => e.UseSqlServer($"Server=(localdB)\\MSSQLLocalDB;Database=MyDatabase3;Trusted_Connection=True"));
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z4ppxwLHDrjyXiNhtP1mBTUs7cGuwmE16exV0ya4DADLX+zTVOU//YWhYQ7cvqFicYSrsqG/sxUDeZDahNClyg==",
+  "dgSpecHash": "9QbLSIJcwsIwjgapL+wDkYFOWfpSmXTHovFObk3XuP9Sj1KlGfqDk7z3buksEQHoW32HkqjEGIH4dva1n2YLOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MyProject.csproj",
   "expectedPackageFiles": [
@@ -93,6 +93,13 @@
     "C:\\Users\\saout\\.nuget\\packages\\skiasharp.views.maui.controls\\2.88.3\\skiasharp.views.maui.controls.2.88.3.nupkg.sha512",
     "C:\\Users\\saout\\.nuget\\packages\\skiasharp.views.maui.core\\2.88.3\\skiasharp.views.maui.core.2.88.3.nupkg.sha512",
     "C:\\Users\\saout\\.nuget\\packages\\skiasharp.views.winui\\2.88.3\\skiasharp.views.winui.2.88.3.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.1.2\\sqlitepclraw.lib.e_sqlite3.android.2.1.2.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\saout\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.2\\sqlitepclraw.provider.sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\saout\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\saout\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
     "C:\\Users\\saout\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",

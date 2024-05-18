@@ -3,52 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\platforms\\tizen\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\platforms\\tizen\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\model\\titanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\model\\titanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\model\\titanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\model\\titanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\csvexportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\csvexportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,124 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "MyProject\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwEMAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:48:28.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
-              "RelativeDocumentMoniker": "MyProject\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
-              "RelativeToolTip": "MyProject\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:44:55.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
-              "RelativeDocumentMoniker": "MyProject\\App.xaml",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
-              "RelativeToolTip": "MyProject\\App.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-18T12:44:49.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TitanModel.cs",
               "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Model\\TitanModel.cs",
               "RelativeDocumentMoniker": "MyProject\\Model\\TitanModel.cs",
               "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Model\\TitanModel.cs",
               "RelativeToolTip": "MyProject\\Model\\TitanModel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA4wBcAAAAPAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:39:09.018Z",
+              "WhenOpened": "2024-05-18T13:23:02.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Model\\User.cs",
-              "RelativeDocumentMoniker": "MyProject\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Model\\User.cs",
-              "RelativeToolTip": "MyProject\\Model\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:38:58.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataAccessService.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
-              "RelativeDocumentMoniker": "MyProject\\Services\\DataAccessService.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
-              "RelativeToolTip": "MyProject\\Services\\DataAccessService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwB4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:16:26.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CSVExportServices.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\CSVExportServices.cs",
-              "RelativeDocumentMoniker": "MyProject\\Services\\CSVExportServices.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\CSVExportServices.cs",
-              "RelativeToolTip": "MyProject\\Services\\CSVExportServices.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAiwDUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:41:54.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ScanElement.xaml",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
-              "RelativeDocumentMoniker": "MyProject\\View\\ScanElement.xaml",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
-              "RelativeToolTip": "MyProject\\View\\ScanElement.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIAwwBsAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-18T12:42:06.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DeviceOrientationService.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
-              "RelativeDocumentMoniker": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
-              "RelativeToolTip": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:40:39.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DeviceOrientationService.cs",
               "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DeviceOrientationService.cs",
               "RelativeDocumentMoniker": "MyProject\\Services\\DeviceOrientationService.cs",
@@ -215,33 +115,150 @@
               "RelativeToolTip": "MyProject\\Services\\DeviceOrientationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:40:43.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "MyProject\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "MyProject\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAUwCwAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:59:34.744Z",
+              "WhenOpened": "2024-05-18T13:03:28.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "MyProject\\View\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RegisterPage.xaml",
-              "RelativeToolTip": "MyProject\\View\\RegisterPage.xaml",
-              "ViewState": "AQIAABMAAAAAAAAAAIAwwCUAAAAQAAAA",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
+              "RelativeDocumentMoniker": "MyProject\\App.xaml",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
+              "RelativeToolTip": "MyProject\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-17T16:58:06.385Z",
+              "WhenOpened": "2024-05-18T13:22:47.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MyProject\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
+              "RelativeToolTip": "MyProject\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:22:41.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "MyProject\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml.cs",
+              "RelativeToolTip": "MyProject\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:22:27.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceOrientationService.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "RelativeDocumentMoniker": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "RelativeToolTip": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:23:14.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "MyProject\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "MyProject\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-18T13:23:15.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MyProject\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml",
+              "RelativeToolTip": "MyProject\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-18T13:22:25.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Globals.cs",
+              "RelativeDocumentMoniker": "MyProject\\Globals.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Globals.cs",
+              "RelativeToolTip": "MyProject\\Globals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:22:22.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Tizen\\Main.cs",
+              "RelativeDocumentMoniker": "MyProject\\Platforms\\Tizen\\Main.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Tizen\\Main.cs",
+              "RelativeToolTip": "MyProject\\Platforms\\Tizen\\Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:23:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataAccessService.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
+              "RelativeDocumentMoniker": "MyProject\\Services\\DataAccessService.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
+              "RelativeToolTip": "MyProject\\Services\\DataAccessService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:03:28.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MyProject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeToolTip": "MyProject\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:00:21.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:59:15.731Z",
               "EditorCaption": ""
             }
           ]
