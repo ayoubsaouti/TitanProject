@@ -26,7 +26,7 @@ public partial class ConnectViewModel : BaseViewModel
     public ICommand LoginCommand { get; set; }
 
     public ConnectViewModel(DataAccessService MyDBService) {
-        UserConnected = Globals.userConnected;
+        UserConnected = "Connecté en tant que : " + Globals.userConnected;
         this.MyDBService = MyDBService;
         // Initialise la commande de connexion avec une action asynchrone pour vérifier les utilisateurs dans la base de données.
         LoginCommand = new Command(async () => await LoginUser());
@@ -58,7 +58,8 @@ public partial class ConnectViewModel : BaseViewModel
                         Globals.userConnected = Username;
                         Globals.idUserConected = user.IdUser;
                         await Shell.Current.DisplayAlert("Connexion réussie", "Vous êtes connecté(e)", "OK");
-                        await Shell.Current.GoToAsync("..", true);
+                        
+                    await Shell.Current.GoToAsync("..", true);
 
                     }
                     else

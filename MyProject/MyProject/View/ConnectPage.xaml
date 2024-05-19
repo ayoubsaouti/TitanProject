@@ -6,55 +6,62 @@
              x:Class="MyProject.View.ConnectPage"
              BackgroundImageSource="background_connect.jpg">
 
+    <!-- Utilisation d'une Grid pour organiser les éléments -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50">
-        <!-- Utilisateur connecté -->
-        <Label  Text="{Binding UserConnected}"
-                    TextColor="#000000"
-                    FontSize="40"
-                    FontAttributes="Bold"
-                    HorizontalTextAlignment="Center"
-                    TextDecorations="Underline"/>
-        
-        <Label Text="Connectez-vous"
-               TextColor="#26223D"
-               FontSize="40"
-               FontAttributes="Bold"
-               Margin="20"/>
-        <!-- Champ d'email -->
-        <Entry Placeholder="Nom de compte" 
-               Text="{Binding Username}"
-               TextColor="#26223D"
-               PlaceholderColor="#26223D"
-               BackgroundColor="#B7B7B7"/>
+        <!-- Label "Connecté en tant que" à gauche -->
+        <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="Start" Margin="50" Grid.Row="0">
+            <Label  Text="{Binding UserConnected}"
+                    TextColor="#FFFFFF"
+                    FontSize="20"
+                    VerticalTextAlignment="Start"/>
+        </VerticalStackLayout>
 
-        <!-- Champ de mot de passe -->
-        <Entry Placeholder="Mot de passe" 
-               Text="{Binding Password}" 
-               IsPassword="True" 
-               TextColor="#26223D"
-               PlaceholderColor="#26223D"
-               BackgroundColor="#B7B7B7"/>
+        <!-- Contenu centré -->
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Start"  Grid.Row="1">
+            <Label Text="Connectez-vous"
+                   TextColor="#26223D"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   Margin="20"/>
 
-        <!-- Bouton de connexion -->
-        <Button Text="Connexion"
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ConnectViewModel}}, Path=LoginCommand}"
-                HorizontalOptions="FillAndExpand" 
-                Margin="0,20,0,0" 
-                TextColor="White"
-                BackgroundColor="#26223D"
-                IsEnabled="{Binding IsNotBusy}"/>
+            <!-- Champ d'email -->
+            <Entry Placeholder="Nom de compte" 
+                   Text="{Binding Username}"
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
 
-        <!-- Bouton INSCRIPTION -->
-        <Button Text="Je m'inscris" 
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ConnectViewModel}}, Path=GoToRegisterPageCommand}"
-                HorizontalOptions="FillAndExpand" 
-                TextColor="White"
-                BackgroundColor="#26223D"
-                Grid.Row="0"
-                Margin="10"
-                IsEnabled="{Binding IsNotBusy}"/>
-        
+            <!-- Champ de mot de passe -->
+            <Entry Placeholder="Mot de passe" 
+                   Text="{Binding Password}" 
+                   IsPassword="True" 
+                   TextColor="#26223D"
+                   PlaceholderColor="#26223D"
+                   BackgroundColor="#B7B7B7"/>
 
-    </VerticalStackLayout>
+            <!-- Bouton de connexion -->
+            <Button Text="Connexion"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ConnectViewModel}}, Path=LoginCommand}"
+                    HorizontalOptions="FillAndExpand" 
+                    Margin="0,20,0,0" 
+                    TextColor="White"
+                    BackgroundColor="#26223D"
+                    IsEnabled="{Binding IsNotBusy}"/>
+
+            <!-- Bouton INSCRIPTION -->
+            <Button Text="Je m'inscris" 
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ConnectViewModel}}, Path=GoToRegisterPageCommand}"
+                    HorizontalOptions="FillAndExpand" 
+                    TextColor="White"
+                    BackgroundColor="#26223D"
+                    Grid.Row="0"
+                    Margin="10"
+                    IsEnabled="{Binding IsNotBusy}"/>
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>

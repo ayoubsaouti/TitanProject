@@ -6,11 +6,10 @@
              x:Class="MyProject.View.MainPage"
              BackgroundImageSource="background_main.png">
 
-
     <ScrollView>
-
         <Grid>
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -18,28 +17,34 @@
 
             <!-- Titre -->
             <Label Text="HELBTitan Version 1.0"
-           TextColor="#FFFFFF"
-           FontSize="40"
-           Grid.Row="0"
-           FontAttributes="Bold"
-           TextDecorations="Underline"
-           HorizontalOptions="Center"/>
+                   TextColor="#FFFFFF"
+                   FontSize="40"
+                   Grid.Row="0"
+                   FontAttributes="Bold"
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center"/>
 
             <!-- Bouton LOGIN -->
             <Button Text="Je me connecte" 
-            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToConnectPageCommand}"
-            HorizontalOptions="End" 
-            TextColor="White"
-            BackgroundColor="#26223D"
-            Grid.Row="0"
-            Margin="10"
-            IsEnabled="{Binding IsNotBusy}"/>
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToConnectPageCommand}"
+                    HorizontalOptions="End" 
+                    TextColor="White"
+                    BackgroundColor="#26223D"
+                    Grid.Row="0"
+                    Margin="10"
+                    IsEnabled="{Binding IsNotBusy}"/>
 
-
-
+            <!-- Label "zzz" au milieu -->
+            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="50" Grid.Row="1">
+                <Label Text="{Binding UserConnected}"
+                       TextColor="#26223D"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       VerticalTextAlignment="Center"/>
+            </VerticalStackLayout>
 
             <!-- Grille pour les boutons SCAN / CHECK MY COLLECTION / LOAD JSON -->
-            <Grid Grid.Row="1" VerticalOptions="Center">
+            <Grid Grid.Row="2" VerticalOptions="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
@@ -48,46 +53,40 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-            
-
-
                 <!-- Boutons SCAN et CHECK MY COLLECTION -->
                 <Button Text="Ajouter un titan" 
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToScanPageCommand}"
-                TextColor="White"
-                BackgroundColor="#26223D"
-                Grid.Column="0"
-                Margin="10"
-                IsEnabled="{Binding IsNotBusy}"/>
-
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToScanPageCommand}"
+                        TextColor="White"
+                        BackgroundColor="#26223D"
+                        Grid.Column="0"
+                        Margin="10"
+                        IsEnabled="{Binding IsNotBusy}"/>
 
                 <Button Text="Consulter et exporter ma collection"
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToCollectionPageCommand}"
-                TextColor="White"
-                BackgroundColor="#26223D"                           
-                Grid.Column="1"
-                Margin="10" 
-                IsEnabled="{Binding IsNotBusy}"/>
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToCollectionPageCommand}"
+                        TextColor="White"
+                        BackgroundColor="#26223D"                           
+                        Grid.Column="1"
+                        Margin="10" 
+                        IsEnabled="{Binding IsNotBusy}"/>
 
                 <!-- Bouton "Load Json"  -->
                 <Button Text="Importer ma collection" 
-                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=LoadJSONCommand}"
-                TextColor="White"
-                BackgroundColor="#26223D"
-                Grid.Column="2"
-                Margin="10" 
-                IsEnabled="{Binding IsNotBusy}"/>
-
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=LoadJSONCommand}"
+                        TextColor="White"
+                        BackgroundColor="#26223D"
+                        Grid.Column="2"
+                        Margin="10" 
+                        IsEnabled="{Binding IsNotBusy}"/>
 
                 <Button Text="Representation graphique"
-                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToChartCommand}"
-                 TextColor="White"
-                 BackgroundColor="#26223D"
-                 Grid.Column="3"
-                 Margin="10"
-                 IsEnabled="{Binding IsNotBusy}"/>
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToChartCommand}"
+                        TextColor="White"
+                        BackgroundColor="#26223D"
+                        Grid.Column="3"
+                        Margin="10"
+                        IsEnabled="{Binding IsNotBusy}"/>
             </Grid>
         </Grid>
-
     </ScrollView>
 </ContentPage>

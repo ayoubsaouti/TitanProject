@@ -58,7 +58,7 @@ public partial class RegisterViewModel : BaseViewModel
                 await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenu lors de l'enregistrement de votre compte à la base de donnée", "OK");
             }
 
-            await Shell.Current.GoToAsync("///MainPage", true);
+            await Shell.Current.GoToAsync("..", true);
         }
 
         IsBusy = false;

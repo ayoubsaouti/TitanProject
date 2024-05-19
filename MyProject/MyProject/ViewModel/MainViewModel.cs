@@ -14,10 +14,11 @@ namespace MyProject.ViewModel;
 public partial class MainViewModel : BaseViewModel
 
 {
-
+    [ObservableProperty]
+    private string userConnected;
     public MainViewModel()
     {
-        
+        UserConnected = "Bienvenue  " + Globals.userConnected;
     }
 
     [RelayCommand]

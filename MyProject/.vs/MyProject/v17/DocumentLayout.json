@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\mycollectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\mycollectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\scanelementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\scanelementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\saout\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataAccessService.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
-              "RelativeDocumentMoniker": "MyProject\\Services\\DataAccessService.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
-              "RelativeToolTip": "MyProject\\Services\\DataAccessService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:13:02.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeviceOrientationService.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DeviceOrientationService.cs",
-              "RelativeDocumentMoniker": "MyProject\\Services\\DeviceOrientationService.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DeviceOrientationService.cs",
-              "RelativeToolTip": "MyProject\\Services\\DeviceOrientationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:13:00.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScanElement.xaml",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
-              "RelativeDocumentMoniker": "MyProject\\View\\ScanElement.xaml",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
-              "RelativeToolTip": "MyProject\\View\\ScanElement.xaml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAACIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-19T13:12:04.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "MyProject\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "MyProject\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:11:05.483Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -114,16 +62,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScanElementViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ScanElementViewModel.cs",
-              "RelativeDocumentMoniker": "MyProject\\ViewModel\\ScanElementViewModel.cs",
-              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ScanElementViewModel.cs",
-              "RelativeToolTip": "MyProject\\ViewModel\\ScanElementViewModel.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAA2wEEAAAAXAAAA",
+              "DocumentIndex": 2,
+              "Title": "MyCollectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:02:28.876Z",
+              "WhenOpened": "2024-05-19T16:16:17.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MyProject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeToolTip": "MyProject\\MauiProgram.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC0AAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:08:14.646Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MainPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\MainPage.xaml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T16:03:06.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ConnectViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\ConnectViewModel.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ConnectViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\ConnectViewModel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDsAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:00:53.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:57:41.868Z"
             }
           ]
         },
