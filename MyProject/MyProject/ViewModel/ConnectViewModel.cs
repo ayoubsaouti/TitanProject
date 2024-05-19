@@ -36,12 +36,8 @@ public partial class ConnectViewModel : BaseViewModel
     
 
     private async Task LoginUser()
-    {
-        if (Globals.userConnected.IsNullOrEmpty())
-        {
-            await Shell.Current.GoToAsync("..", true); 
-        }
-        else
+    
+       
         {
             IsBusy = true;
 
@@ -78,7 +74,7 @@ public partial class ConnectViewModel : BaseViewModel
 
             IsBusy = false;
         }
-    }
+    
 
 
 

@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using SkiaSharp;
 
 namespace MyProject.ViewModel;
@@ -21,16 +22,46 @@ public partial class MyCollectionViewModel : BaseViewModel
     private bool _isFormerInheritorChecked;
     private bool _isAllegianceChecked;
 
-    
+    DataAccessService MyDBService;
 
-    public MyCollectionViewModel() {
 
+
+    public MyCollectionViewModel(DataAccessService MyDBService) {
+
+        /* AFFICHAGE POUR LE JSON 
         foreach (var titan in Globals.myTitans)
         {
             myObservableTitans.Add(titan);
-        }
+        } */
+        this.MyDBService = MyDBService;
+        afficheFromDb();
         csvExportServices = new CSVExportServices();
         selectedAttributes = new List<string>();
+
+        
+    }
+    public async Task afficheFromDb() {
+        IsBusy = true;
+
+        try
+        {
+            // Récupere les titans qui apparatien a l'utilisateur
+            var titans = MyDBService.Titans.Where(e => e.IdUser == Globals.idUserConected).ToList();
+
+            foreach (var titan in titans)
+            {
+                // Ajout dans la liste observable
+                myObservableTitans.Add(titan);              
+            }
+            
+        }
+        catch (Exception ex)
+        {
+            await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenue lors de la tentative de connexion", "OK");
+        }
+    
+
+    IsBusy = false;
     }
 
 

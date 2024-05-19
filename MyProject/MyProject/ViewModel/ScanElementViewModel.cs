@@ -130,7 +130,7 @@ public partial class ScanElementViewModel : BaseViewModel
                 {
                     await MyDBService.Titans.AddAsync(newTitan);
                     await MyDBService.SaveChangesAsync();
-                    //await MyService.SetTitans(); // Met à jour les données JSON (si nécessaire)
+                    
                 }
                 catch (Exception ex)
                 {
