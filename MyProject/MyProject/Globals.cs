@@ -15,4 +15,6 @@ global using Microcharts.Maui;
 internal class Globals
 {
     public static List<Titan> myTitans = new();
+    public static string userConnected ;
+    public static string idUserConected;
 }

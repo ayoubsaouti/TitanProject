@@ -2,8 +2,13 @@ namespace MyProject.View;
 
 public partial class ConnectPage : ContentPage
 {
-	public ConnectPage()
+    ConnectViewModel viewModel;
+
+    public ConnectPage(ConnectViewModel viewModel)
 	{
-		InitializeComponent();
-	}
+        this.viewModel = viewModel;
+        InitializeComponent();
+        BindingContext = viewModel;
+
+    }
 }

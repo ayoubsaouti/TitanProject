@@ -14,6 +14,11 @@ namespace MyProject.Model
         public ICollection<Titan> MyCollection { get; set; }
 
 
+        public User()
+        {
+            
+        }
+
         public User(string id, string username, string password)
         {
             IdUser = id;

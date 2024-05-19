@@ -24,7 +24,7 @@ public partial class ScanElementViewModel : BaseViewModel
 
 
     [ObservableProperty]
-    private int id;
+    private String id;
     [ObservableProperty]
     private String name;
     [ObservableProperty]
@@ -37,7 +37,8 @@ public partial class ScanElementViewModel : BaseViewModel
     private String former_inheritor;
     [ObservableProperty]
     private String allegiance;
-    
+
+    DataAccessService MyDBService;
 
 
     public string SelectedImageSource
@@ -51,14 +52,19 @@ public partial class ScanElementViewModel : BaseViewModel
     }
 
     public ICommand SelectImageCommand { get; }
+    public ICommand AddTitanCommand { get; set; }
 
-    public ScanElementViewModel()
+
+    public ScanElementViewModel(DataAccessService MyDBService)
     {
+        this.MyDBService = MyDBService;
         SelectImageCommand = new Command(async () => await SelectImage());
 
         this.myScanner = new();
         myScanner.ConfigureScanner();
         myScanner.SerialBuffer.Changed += OnBarCodeScanned;
+        AddTitanCommand = new Command(async () => await AddElement());
+
     }
 
     private void OnBarCodeScanned(object sender, EventArgs arg)
@@ -90,7 +96,6 @@ public partial class ScanElementViewModel : BaseViewModel
 
 
 
-    [RelayCommand]
     private async Task AddElement()
     {
 
@@ -100,7 +105,7 @@ public partial class ScanElementViewModel : BaseViewModel
             IsBusy = true;
             JSONServices MyService = new();
 
-            Titan newTitan = new Titan(id, name, selectedImageSource, height, abilities, current_inheritor, former_inheritor, allegiance);
+            Titan newTitan = new Titan(id, name, selectedImageSource, height, abilities, current_inheritor, former_inheritor, allegiance, Globals.idUserConected);
             
             foreach (var mytitan in Globals.myTitans)
             {
@@ -120,6 +125,17 @@ public partial class ScanElementViewModel : BaseViewModel
                 Globals.myTitans.Add(newTitan);
                 myObservableTitans.Add(newTitan);
                 await MyService.SetTitans();
+                //ajouter a la db
+                try
+                {
+                    await MyDBService.Titans.AddAsync(newTitan);
+                    await MyDBService.SaveChangesAsync();
+                    //await MyService.SetTitans(); // Met à jour les données JSON (si nécessaire)
+                }
+                catch (Exception ex)
+                {
+                    await Shell.Current.DisplayAlert("Erreur", "Une erreur s'est produite lors de l'ajout du titan à la base de données", "OK");
+                }
 
             }
             IsBusy = false;
@@ -129,6 +145,6 @@ public partial class ScanElementViewModel : BaseViewModel
 
         }
 
-
+       
     }
 }

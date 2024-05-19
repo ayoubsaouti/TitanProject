@@ -13,7 +13,7 @@
                FontAttributes="Bold"
                Margin="20"/>
         <!-- Champ username -->
-        <Entry Placeholder="Username"
+        <Entry Placeholder="Nom de compte"
                Text="{Binding Username}" 
                TextColor="#26223D"
                PlaceholderColor="#26223D"
@@ -32,7 +32,7 @@
                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RegisterViewModel}}, Path=RegisterCommand}"
                 HorizontalOptions="FillAndExpand" 
                 Margin="0,20,0,0" 
-                TextColor="#B7B7B7"
+                TextColor="White"
                 BackgroundColor="#26223D"
                 FontAttributes="Bold"
                 IsEnabled="{Binding IsNotBusy}"/>

@@ -11,9 +11,20 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
+        ContentTemplate="{DataTemplate local:ConnectPage}"
+        Route="ConnectPage" />
+    <ShellContent
+        ContentTemplate="{DataTemplate local:RegisterPage}"
+        Route="RegisterPage" />
+    <ShellContent
         ContentTemplate="{DataTemplate local:ScanElement}"
         Route="ScanElement" />
-
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MyCollectionPage}"
+        Route="MyCollectionPage" />
+    <ShellContent
+        ContentTemplate="{DataTemplate local:RepresentationPage}"
+        Route="RepresentationPage" />
 
 
 </Shell>

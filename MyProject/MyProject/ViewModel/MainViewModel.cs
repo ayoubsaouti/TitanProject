@@ -1,4 +1,6 @@
-﻿using MyProject.Services;
+﻿using Azure.Identity;
+using Microsoft.IdentityModel.Tokens;
+using MyProject.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,9 +17,8 @@ public partial class MainViewModel : BaseViewModel
 
     public MainViewModel()
     {
-       
+        
     }
-   
 
     [RelayCommand]
     private async Task GoToScanPage()
@@ -44,14 +45,7 @@ public partial class MainViewModel : BaseViewModel
         await Shell.Current.GoToAsync("ConnectPage", true);
         IsBusy = false;
     }
-    [RelayCommand]
-    private async Task GoToRegisterPage()
-    {
-        IsBusy = true;
-        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("RegisterPage", true);
-        IsBusy = false;
-    }
+    
 
 
     [RelayCommand]

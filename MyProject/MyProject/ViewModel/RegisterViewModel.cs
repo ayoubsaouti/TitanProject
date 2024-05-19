@@ -26,9 +26,6 @@ public partial class RegisterViewModel : BaseViewModel
         RegisterCommand = new Command(async () => await SaveUsersInDB());
     }
 
-
-    
-
     
     private async Task SaveUsersInDB()
     {
@@ -41,8 +38,9 @@ public partial class RegisterViewModel : BaseViewModel
         }
         else
         {
+            Globals.idUserConected = Guid.NewGuid().ToString();
             //c'est pas vide donc on créer l'utilisateur et Guid.NewGuid().ToString() pour créer un id unique
-            User newUser = new User(Guid.NewGuid().ToString(), Username, Password);
+            User newUser = new User(Globals.idUserConected, Username, Password);
 
             try
             {
@@ -52,18 +50,18 @@ public partial class RegisterViewModel : BaseViewModel
                 await MyDBService.SaveChangesAsync();
 
                 await Shell.Current.DisplayAlert("Utilisateur ajouté", "Votre compte a bien été crée", "OK");
+
+               
             }
             catch (Exception ex)
             {
                 await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenu lors de l'enregistrement de votre compte à la base de donnée", "OK");
             }
 
-            await Shell.Current.GoToAsync("...", true);
+            await Shell.Current.GoToAsync("///MainPage", true);
         }
 
         IsBusy = false;
 
     }
-
-  
 }

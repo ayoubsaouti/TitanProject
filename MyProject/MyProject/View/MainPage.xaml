@@ -35,17 +35,8 @@
             Margin="10"
             IsEnabled="{Binding IsNotBusy}"/>
 
-         
 
-            <!-- Bouton INSCRIPTION -->
-            <Button Text="Je m'inscris" 
-            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToRegisterPageCommand}"
-            HorizontalOptions="Start" 
-            TextColor="White"
-            BackgroundColor="#26223D"
-            Grid.Row="0"
-            Margin="10"
-            IsEnabled="{Binding IsNotBusy}"/>
+
 
             <!-- Grille pour les boutons SCAN / CHECK MY COLLECTION / LOAD JSON -->
             <Grid Grid.Row="1" VerticalOptions="Center">
@@ -56,6 +47,9 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
+
+            
+
 
                 <!-- Boutons SCAN et CHECK MY COLLECTION -->
                 <Button Text="Ajouter un titan" 

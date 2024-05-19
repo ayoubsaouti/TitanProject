@@ -43,9 +43,11 @@ namespace MyProject
 
             builder.Services.AddTransient<JSONServices>();
 
+            builder.Services.AddDbContext<DataAccessService>(e => e.UseSqlServer($"Server=(localdB)\\MSSQLLocalDB;Database=MyDatabase1;Trusted_Connection=True"));
+
             return builder.Build();
 
-            builder.Services.AddDbContext<DataAccessService>(e => e.UseSqlServer($"Server=(localdB)\\MSSQLLocalDB;Database=MyDatabase3;Trusted_Connection=True"));
+            
         }
     }
 }

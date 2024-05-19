@@ -34,7 +34,7 @@ namespace MyProject.Services
                 //Indique que chaque User peut avoir plusieurs Titans via la propriété de navigation MyCollection.
                 .WithMany(e => e.MyCollection)
                 //Spécifie que la clé étrangère dans la table Titan qui fait référence à la table User est UserId.
-                .HasForeignKey(e => e.User.IdUser)
+                .HasForeignKey(e => e.IdUser)
                 //Indique que la clé principale dans la table User est IdUser, ce qui correspond à la clé étrangère dans la table Titan.
                 .HasPrincipalKey(e => e.IdUser);
         }

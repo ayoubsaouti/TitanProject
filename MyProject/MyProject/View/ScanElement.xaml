@@ -65,7 +65,7 @@
                     BackgroundColor="#26223D"/>
 
             <Button Text="Ajouter à ma collection" 
-                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ScanElementViewModel}}, Path=AddElementCommand}"
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ScanElementViewModel}}, Path=AddTitanCommand}"
                     TextColor="White"
                     BackgroundColor="#26223D"
                     IsEnabled="{Binding IsNotBusy}"/>
