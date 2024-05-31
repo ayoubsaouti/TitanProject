@@ -59,11 +59,19 @@ public partial class ScanElementViewModel : BaseViewModel
     {
         this.MyDBService = MyDBService;
         SelectImageCommand = new Command(async () => await SelectImage());
-
-        this.myScanner = new();
-        myScanner.ConfigureScanner();
-        myScanner.SerialBuffer.Changed += OnBarCodeScanned;
         AddTitanCommand = new Command(async () => await AddElement());
+
+        try {
+            this.myScanner = new();
+            myScanner.ConfigureScanner();
+            myScanner.SerialBuffer.Changed += OnBarCodeScanned;
+            
+
+        } catch (Exception ex){
+
+            Console.WriteLine(ex);
+        }
+
 
     }
 

@@ -17,7 +17,15 @@ namespace MyProject.Services
         #region CONSTRUCTOR    
         public DataAccessService(DbContextOptions<DataAccessService> options) : base(options)
         {
-            Database.EnsureCreated();
+
+            try
+            {
+                Database.EnsureCreated();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
         #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)

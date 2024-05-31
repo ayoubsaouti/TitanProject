@@ -29,293 +29,293 @@
     <AppXManifest Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-19T16:09:46.444</Modified>
+      <Modified>2024-05-31T22:07:50.945</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-19T16:09:46.306</Modified>
+      <Modified>2024-05-31T22:07:50.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.runtimeconfig.json">
       <PackagePath>MyProject.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-19T15:48:02.915</Modified>
+      <Modified>2024-05-31T22:01:33.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.dll">
       <PackagePath>MyProject.dll</PackagePath>
-      <Modified>2024-05-19T16:09:45.900</Modified>
+      <Modified>2024-05-31T22:07:50.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MyProject.exe</PackagePath>
-      <Modified>2024-05-19T16:09:45.905</Modified>
+      <Modified>2024-05-31T22:07:50.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-02-25T14:30:16.701</Modified>
+      <Modified>2024-02-25T14:30:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.801</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.802</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.803</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.803</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.804</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-02-25T14:30:18.769</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-02-25T14:30:18.771</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-25T14:30:18.773</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.773</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.773</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.774</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.775</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.775</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.776</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.776</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.777</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.777</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.778</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.778</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.778</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.779</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.779</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.780</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.780</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.781</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.781</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.781</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.782</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.783</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.783</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.784</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.784</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.785</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.785</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.786</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.786</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.787</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.787</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.788</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.788</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.789</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.789</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.790</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.790</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.791</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.792</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.792</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.792</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.793</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.793</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.794</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.794</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-25T14:30:18.795</Modified>
+      <Modified>2024-02-25T14:30:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\armored.scale-100.gif">
       <PackagePath>armored.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T13:40:57.027</Modified>
+      <Modified>2024-02-27T13:40:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\assaillant.scale-100.gif">
       <PackagePath>assaillant.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T12:41:12.421</Modified>
+      <Modified>2024-02-27T12:41:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_connect.scale-100.jpg">
       <PackagePath>background_connect.scale-100.jpg</PackagePath>
-      <Modified>2024-02-27T16:02:44.485</Modified>
+      <Modified>2024-02-27T16:02:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_main.scale-100.png">
       <PackagePath>background_main.scale-100.png</PackagePath>
-      <Modified>2024-02-26T13:18:30.434</Modified>
+      <Modified>2024-02-26T13:18:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_register.scale-100.jpg">
       <PackagePath>background_register.scale-100.jpg</PackagePath>
-      <Modified>2024-02-27T15:46:20.528</Modified>
+      <Modified>2024-02-27T15:46:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bestial.scale-100.gif">
       <PackagePath>bestial.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T13:43:53.201</Modified>
+      <Modified>2024-02-27T13:43:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart_titan.scale-100.gif">
       <PackagePath>cart_titan.scale-100.gif</PackagePath>
-      <Modified>2024-04-06T13:36:59.239</Modified>
+      <Modified>2024-04-06T13:37:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\colossal.scale-100.gif">
       <PackagePath>colossal.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T13:37:41.689</Modified>
+      <Modified>2024-02-27T13:37:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\female.scale-100.gif">
       <PackagePath>female.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T01:22:08.890</Modified>
+      <Modified>2024-02-27T01:22:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\funder.scale-100.gif">
       <PackagePath>funder.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T13:49:19.614</Modified>
+      <Modified>2024-02-27T13:49:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\jaw.scale-100.gif">
       <PackagePath>jaw.scale-100.gif</PackagePath>
-      <Modified>2024-02-27T13:45:24.245</Modified>
+      <Modified>2024-02-27T13:45:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marteau.scale-100.gif">
       <PackagePath>marteau.scale-100.gif</PackagePath>
-      <Modified>2024-02-28T00:14:42.146</Modified>
+      <Modified>2024-02-28T00:14:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\Documents\GitHub\TitanProject\MyProject\MyProject\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MyProject.deps.json">
       <PackagePath>MyProject.deps.json</PackagePath>
-      <Modified>2024-05-19T15:48:02.802</Modified>
+      <Modified>2024-05-31T22:01:33.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\saout\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

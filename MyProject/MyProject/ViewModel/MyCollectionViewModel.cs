@@ -15,12 +15,7 @@ public partial class MyCollectionViewModel : BaseViewModel
     public ObservableCollection<Titan> myObservableTitans { get; } = new();
     private CSVExportServices csvExportServices;
     private List<string> selectedAttributes;
-    private bool _isNameChecked;
-    private bool _isAbilitiesChecked;
-    private bool _isCurrentInheritorChecked;
-    private bool _isHeightChecked;
-    private bool _isFormerInheritorChecked;
-    private bool _isAllegianceChecked;
+
 
     DataAccessService MyDBService;
 
@@ -40,56 +35,58 @@ public partial class MyCollectionViewModel : BaseViewModel
 
         
     }
-    public async Task afficheFromDb() {
+    public async Task afficheFromDb()
+    {
         IsBusy = true;
-
         try
         {
-            // Récupere les titans qui apparatien a l'utilisateur
-            var titans = MyDBService.Titans.Where(e => e.IdUser == Globals.idUserConected).ToList();
-
+            var titans = await MyDBService.Titans.Where(e => e.IdUser == Globals.idUserConected).ToListAsync();
             foreach (var titan in titans)
             {
-                // Ajout dans la liste observable
-                myObservableTitans.Add(titan);              
+                myObservableTitans.Add(titan);
             }
-            
         }
         catch (Exception ex)
         {
             await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenue lors de la tentative de connexion", "OK");
         }
-    
-
-    IsBusy = false;
+        IsBusy = false;
     }
 
 
     [RelayCommand]
     private async Task ExportToCSV()
     {
-        if (selectedAttributes.Count == 0) {
-            string[] defaultAttributes = ["Name", "Height", "Abilities", "Current_inheritor", "Former_inheritor", "Allegiance"];
+        if (selectedAttributes.Count == 0)
+        {
+            string[] defaultAttributes = { "Name", "Height", "Abilities", "Current_inheritor", "Former_inheritor", "Allegiance" };
             selectedAttributes.AddRange(defaultAttributes);
         }
 
         IsBusy = true;
         try
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            var filePath = Path.Combine(desktopPath, "CSVTitan.csv");
+            var result = await FilePicker.PickAsync(new PickOptions
+            {
+                PickerTitle = "Select a folder",
+            });
 
-            //LOGIQUE DEXPORT
-            csvExportServices.ExportToCSV(myObservableTitans, filePath, selectedAttributes);
+            if (result != null)
+            {
+                string folderPath = result.FullPath;
 
-            //MESSAGE DAFFICHAGE
-            await Shell.Current.DisplayAlert("Export en fichier CSV ", "Exportation reussis !", "OK");
+                csvExportServices.ExportToCSV(myObservableTitans, folderPath, selectedAttributes);
+                await Shell.Current.DisplayAlert("Export en fichier CSV", "Exportation réussie !", "OK");
+            }
+            else
+            {
+                await Shell.Current.DisplayAlert("Erreur", "Aucun dossier sélectionné", "OK");
+            }
         }
         catch (Exception e)
         {
-            await Shell.Current.DisplayAlert("Export en fichier CSV ", "Echec de l'exportation : " + e, "OK");
+            await Shell.Current.DisplayAlert("Erreur", "Échec de l'exportation CSV : " + e.Message, "OK");
         }
-
         IsBusy = false;
         selectedAttributes.Clear();
         UncheckAll();
@@ -104,137 +101,94 @@ public partial class MyCollectionViewModel : BaseViewModel
         IsAllegianceChecked = false;
     }
 
-    
-    public bool IsNameChecked
-    {
-        get { return _isNameChecked; }
-        set
-        {
-            if (_isNameChecked != value)
-            {
-                _isNameChecked = value;
-                OnPropertyChanged(nameof(IsNameChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isNameChecked)
-                {
-                    selectedAttributes.Add("Name"); // Ajoutez "Name" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Name"); // Supprimez "Name" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isNameChecked;
+
+    partial void OnIsNameCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Name");
+        }
+        else
+        {
+            selectedAttributes.Remove("Name");
         }
     }
-    public bool IsAbilitiesChecked
-    {
-        get { return _isAbilitiesChecked; }
-        set
-        {
-            if (_isAbilitiesChecked != value)
-            {
-                _isAbilitiesChecked = value;
-                OnPropertyChanged(nameof(IsAbilitiesChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isAbilitiesChecked)
-                {
-                    selectedAttributes.Add("Abilities"); // Ajoutez "Abilities" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Abilities"); // Supprimez "Abilities" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isAbilitiesChecked;
+
+    partial void OnIsAbilitiesCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Abilities");
+        }
+        else
+        {
+            selectedAttributes.Remove("Abilities");
         }
     }
-    public bool IsCurrentInheritorChecked
-    {
-        get { return _isCurrentInheritorChecked; }
-        set
-        {
-            if (_isCurrentInheritorChecked != value)
-            {
-                _isCurrentInheritorChecked = value;
-                OnPropertyChanged(nameof(IsCurrentInheritorChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isCurrentInheritorChecked)
-                {
-                    selectedAttributes.Add("Current_inheritor"); // Ajoutez "Current_inheritor" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Current_inheritor"); // Supprimez "Current_inheritor" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isCurrentInheritorChecked;
+
+    partial void OnIsCurrentInheritorCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Current_inheritor");
+        }
+        else
+        {
+            selectedAttributes.Remove("Current_inheritor");
         }
     }
-    public bool IsHeightChecked
-    {
-        get { return _isHeightChecked; }
-        set
-        {
-            if (_isHeightChecked != value)
-            {
-                _isHeightChecked = value;
-                OnPropertyChanged(nameof(IsHeightChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isHeightChecked)
-                {
-                    selectedAttributes.Add("Height"); // Ajoutez "Height" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Height"); // Supprimez "Height" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isHeightChecked;
+
+    partial void OnIsHeightCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Height");
+        }
+        else
+        {
+            selectedAttributes.Remove("Height");
         }
     }
-    public bool IsFormerInheritorChecked
-    {
-        get { return _isFormerInheritorChecked; }
-        set
-        {
-            if (_isFormerInheritorChecked != value)
-            {
-                _isFormerInheritorChecked = value;
-                OnPropertyChanged(nameof(IsFormerInheritorChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isFormerInheritorChecked)
-                {
-                    selectedAttributes.Add("Former_inheritor"); // Ajoutez "Former_inheritor" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Former_inheritor"); // Supprimez "Former_inheritor" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isFormerInheritorChecked;
+
+    partial void OnIsFormerInheritorCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Former_inheritor");
+        }
+        else
+        {
+            selectedAttributes.Remove("Former_inheritor");
         }
     }
-    public bool IsAllegianceChecked
-    {
-        get { return _isAllegianceChecked; }
-        set
-        {
-            if (_isAllegianceChecked != value)
-            {
-                _isAllegianceChecked = value;
-                OnPropertyChanged(nameof(IsAllegianceChecked));
 
-                // Ajoutez ou supprimez la chaîne associée en fonction de l'état de la case à cocher
-                if (_isAllegianceChecked)
-                {
-                    selectedAttributes.Add("Allegiance"); // Ajoutez "Allegiance" à votre liste
-                }
-                else
-                {
-                    selectedAttributes.Remove("Allegiance"); // Supprimez "Allegiance" de votre liste
-                }
-            }
+    [ObservableProperty]
+    private bool isAllegianceChecked;
+
+    partial void OnIsAllegianceCheckedChanged(bool value)
+    {
+        if (value)
+        {
+            selectedAttributes.Add("Allegiance");
+        }
+        else
+        {
+            selectedAttributes.Remove("Allegiance");
         }
     }
 }

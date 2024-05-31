@@ -16,7 +16,7 @@ namespace MyProject.Services
             StringBuilder csvContent = new StringBuilder();
 
             // Ajouter l'en-tête avec les noms des Titans
-            csvContent.Append("\t");
+            csvContent.Append("TITAN");
             foreach (var titan in titans)
             {
                 csvContent.Append($"; {titan.Name}");

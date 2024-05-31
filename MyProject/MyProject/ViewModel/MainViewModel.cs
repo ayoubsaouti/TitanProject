@@ -70,5 +70,20 @@ public partial class MainViewModel : BaseViewModel
         IsBusy = false;
     }
 
+    [RelayCommand]
+    public async Task SetupPortCOM(string selectedPort)
+    {
+        IsBusy = true;
+        try
+        {
+            Globals.portConnected = selectedPort;
+        }
+        catch (Exception ex)
+        {
+            // Gérer les erreurs éventuelles
+            await Shell.Current.DisplayAlert("Error", ex.ToString(), "OK");
+        }
+        IsBusy = false;
+    }
 
 }

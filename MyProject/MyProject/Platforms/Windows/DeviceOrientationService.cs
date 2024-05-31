@@ -14,7 +14,7 @@ public partial class DeviceOrientationService
         this.mySerialPort = new();
 
         mySerialPort.BaudRate = 9600;
-        mySerialPort.PortName = "COM3";
+        mySerialPort.PortName = Globals.portConnected;
         mySerialPort.Parity = Parity.None;
         mySerialPort.DataBits = 8;
         mySerialPort.StopBits = StopBits.One;
