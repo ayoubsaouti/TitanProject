@@ -15,14 +15,14 @@
 
         <!-- Label "Connecté en tant que" à gauche -->
         <VerticalStackLayout HorizontalOptions="Start" VerticalOptions="Start" Margin="50" Grid.Row="0">
-            <Label  Text="{Binding UserConnected}"
-                    TextColor="#FFFFFF"
-                    FontSize="20"
-                    VerticalTextAlignment="Start"/>
+            <Label Text="{Binding UserConnected}"
+                   TextColor="#FFFFFF"
+                   FontSize="20"
+                   VerticalTextAlignment="Start"/>
         </VerticalStackLayout>
 
         <!-- Contenu centré -->
-        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Start"  Grid.Row="1">
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Start" Grid.Row="1">
             <Label Text="Connectez-vous"
                    TextColor="#26223D"
                    FontSize="40"
@@ -59,7 +59,6 @@
                     HorizontalOptions="FillAndExpand" 
                     TextColor="White"
                     BackgroundColor="#26223D"
-                    Grid.Row="0"
                     Margin="10"
                     IsEnabled="{Binding IsNotBusy}"/>
         </VerticalStackLayout>

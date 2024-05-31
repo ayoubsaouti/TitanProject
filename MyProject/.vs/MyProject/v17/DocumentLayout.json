@@ -1,7 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\saout\\Documents\\GitHub\\TitanProject\\MyProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\platforms\\windows\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\services\\csvexportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\csvexportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\deviceorientationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\scanelementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\scanelementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\representationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\representationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\mycollectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\mycollectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\mycollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\mycollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\connectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\scanelement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\representaionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\representaionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|c:\\users\\msaou\\onedrive - helb prigogine\\documents\\github\\titanproject\\myproject\\myproject\\services\\jsonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC63EF95-06DD-4EE5-AE89-F82D560CDDB1}|MyProject\\MyProject.csproj|solutionrelative:myproject\\services\\jsonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,49 +106,319 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeviceOrientationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "RelativeDocumentMoniker": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "RelativeToolTip": "MyProject\\Platforms\\Windows\\DeviceOrientationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:32:22.034Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MyProject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\MauiProgram.cs",
+              "RelativeToolTip": "MyProject\\MauiProgram.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:31:40.609Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Globals.cs",
+              "RelativeDocumentMoniker": "MyProject\\Globals.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Globals.cs",
+              "RelativeToolTip": "MyProject\\Globals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:29:38.993Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "MyProject\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml.cs",
+              "RelativeToolTip": "MyProject\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:28:08.964Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
+              "RelativeDocumentMoniker": "MyProject\\App.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml",
+              "RelativeToolTip": "MyProject\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:28:11.925Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MyProject\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\AppShell.xaml",
+              "RelativeToolTip": "MyProject\\AppShell.xaml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:28:09.224Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MyProject\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\App.xaml.cs",
+              "RelativeToolTip": "MyProject\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:28:02.002Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScanElementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ScanElementViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\ScanElementViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ScanElementViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\ScanElementViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:23:33.359Z",
+              "EditorCaption": ""
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeviceOrientationService.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DeviceOrientationService.cs",
+              "RelativeDocumentMoniker": "MyProject\\Services\\DeviceOrientationService.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DeviceOrientationService.cs",
+              "RelativeToolTip": "MyProject\\Services\\DeviceOrientationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:11:39.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAccessService.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
+              "RelativeDocumentMoniker": "MyProject\\Services\\DataAccessService.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\DataAccessService.cs",
+              "RelativeToolTip": "MyProject\\Services\\DataAccessService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:11:34.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSVExportServices.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\CSVExportServices.cs",
+              "RelativeDocumentMoniker": "MyProject\\Services\\CSVExportServices.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\CSVExportServices.cs",
+              "RelativeToolTip": "MyProject\\Services\\CSVExportServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:11:21.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepresentationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RepresentationViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\RepresentationViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RepresentationViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\RepresentationViewModel.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:23:33.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:22:34.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyCollectionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\MyCollectionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:20:49.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAuwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:19:39.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ConnectViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ConnectViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\ConnectViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\ConnectViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\ConnectViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:18:03.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "MyProject\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "MyProject\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:17:18.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ScanElement.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\ScanElement.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ScanElement.xaml",
+              "RelativeToolTip": "MyProject\\View\\ScanElement.xaml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:16:42.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RepresentaionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RepresentaionPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\RepresentaionPage.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RepresentaionPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\RepresentaionPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:16:05.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConnectPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ConnectPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\ConnectPage.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\ConnectPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\ConnectPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:12:57.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MainPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\MainPage.xaml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:13:37.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyCollectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MyCollectionPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\MyCollectionPage.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\MyCollectionPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\MyCollectionPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:14:12.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "MyProject\\View\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\View\\RegisterPage.xaml",
+              "RelativeToolTip": "MyProject\\View\\RegisterPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-31T22:15:10.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JSONServices.cs",
+              "DocumentMoniker": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\JSONServices.cs",
+              "RelativeDocumentMoniker": "MyProject\\Services\\JSONServices.cs",
+              "ToolTip": "C:\\Users\\MSaou\\OneDrive - HELB PRIGOGINE\\Documents\\GitHub\\TitanProject\\MyProject\\MyProject\\Services\\JSONServices.cs",
+              "RelativeToolTip": "MyProject\\Services\\JSONServices.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T22:12:18.577Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -10,109 +10,94 @@
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
 
-            <HorizontalStackLayout Spacing="10" 
-                                   Padding="10">
-
+            <HorizontalStackLayout Spacing="10" Padding="10">
             </HorizontalStackLayout>
 
             <CollectionView ItemsSource="{Binding myObservableTitans}"
                             SelectionMode="None">
                 <CollectionView.ItemTemplate>
-                    
                     <DataTemplate x:DataType="model:Titan">
                         <Border StrokeThickness="4"
                                 StrokeShape="RoundRectangle 10,10,10,10"
                                 Padding="10">
                             <Grid HeightRequest="200" ColumnDefinitions="0.5*,*">
-                                <ImageButton    Grid.Column="0"
-                                                HorizontalOptions="Start"
-                                                Source="{Binding Picture}"
-                                                Aspect="AspectFit"
-                                                HeightRequest="220"/>
-                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" >
+                                <ImageButton Grid.Column="0"
+                                             HorizontalOptions="Start"
+                                             Source="{Binding Picture}"
+                                             Aspect="AspectFit"
+                                             HeightRequest="220"/>
+                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
 
                                     <HorizontalStackLayout Spacing="5">
-                                        <Label  Text="Nom: "
-                                                FontSize="15"
-                                                HorizontalOptions="Start"
-                                                TextDecorations="Underline"/>
-
-                                        <Label  Text="{Binding Path=Name,StringFormat='{0:S2}'}" 
-                                                Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
-
+                                        <Label Text="Nom: "
+                                               FontSize="15"
+                                               HorizontalOptions="Start"
+                                               TextDecorations="Underline"/>
+                                        <Label Text="{Binding Path=Name,StringFormat='{0:S2}'}" 
+                                               Style="{StaticResource SubHeadline}"
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
 
-                                    
                                     <HorizontalStackLayout Spacing="5">
                                         <Label Text="Poids: "
                                                FontSize="15"
                                                HorizontalOptions="Start"
                                                TextDecorations="Underline"/>
-
                                         <Label Text="{Binding Path=Height,StringFormat='{0:S2}'}" 
                                                Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
 
-                                    
                                     <HorizontalStackLayout Spacing="5">
-                                        <Label Text="Capacités:"
+                                        <Label Text="Capacités: "
                                                FontSize="15"
                                                HorizontalOptions="Start"
                                                TextDecorations="Underline"/>
-
                                         <Label Text="{Binding Path=Abilities,StringFormat='{0:S2}'}" 
                                                Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
-                                    
-                                    
+
                                     <HorizontalStackLayout Spacing="5">
                                         <Label Text="Héritier actuel: "
                                                FontSize="15"
                                                HorizontalOptions="Start"
                                                TextDecorations="Underline"/>
-
                                         <Label Text="{Binding Path=Current_inheritor,StringFormat='{0:S2}'}" 
-                                           Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
+                                               Style="{StaticResource SubHeadline}"
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
-
 
                                     <HorizontalStackLayout Spacing="5">
                                         <Label Text="Anciens héritier: "
                                                FontSize="15"
                                                HorizontalOptions="Start"
                                                TextDecorations="Underline"/>
-
                                         <Label Text="{Binding Path=Former_inheritor,StringFormat='{0:S2}'}" 
                                                Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
 
-                                    
                                     <HorizontalStackLayout Spacing="5">
                                         <Label Text="Nation: "
                                                FontSize="15"
                                                HorizontalOptions="Start"
                                                TextDecorations="Underline"/>
-
                                         <Label Text="{Binding Path=Allegiance,StringFormat='{0:S2}'}" 
                                                Style="{StaticResource SubHeadline}"
-                                                FontSize="15"
-                                                Margin="20,0,0,0"
-                                                HorizontalOptions="Start"/>
+                                               FontSize="15"
+                                               Margin="20,0,0,0"
+                                               HorizontalOptions="Start"/>
                                     </HorizontalStackLayout>
 
                                 </VerticalStackLayout>
@@ -121,7 +106,7 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            
+
             <Grid>
                 <!-- Colonnes de gauche -->
                 <Grid.ColumnDefinitions>

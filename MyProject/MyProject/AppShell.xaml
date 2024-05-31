@@ -7,24 +7,33 @@
     Shell.FlyoutBehavior="Disabled"
     Title="HELBProject">
 
+    <!-- Contenu de la page principale -->
     <ShellContent
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <!-- Contenu de la page de connexion -->
     <ShellContent
         ContentTemplate="{DataTemplate local:ConnectPage}"
         Route="ConnectPage" />
+
+    <!-- Contenu de la page d'inscription -->
     <ShellContent
         ContentTemplate="{DataTemplate local:RegisterPage}"
         Route="RegisterPage" />
+
+    <!-- Contenu de la page de numérisation -->
     <ShellContent
         ContentTemplate="{DataTemplate local:ScanElement}"
         Route="ScanElement" />
+
+    <!-- Contenu de la page de ma collection -->
     <ShellContent
         ContentTemplate="{DataTemplate local:MyCollectionPage}"
         Route="MyCollectionPage" />
+
+    <!-- Contenu de la page de représentation -->
     <ShellContent
         ContentTemplate="{DataTemplate local:RepresentationPage}"
         Route="RepresentationPage" />
-
-
 </Shell>

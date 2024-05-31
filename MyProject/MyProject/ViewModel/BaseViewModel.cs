@@ -14,6 +14,7 @@ namespace MyProject.ViewModel
 
         public bool IsNotBusy => !IsBusy;
 
+        // Constructeur par défaut
         public BaseViewModel()
         { }
     }

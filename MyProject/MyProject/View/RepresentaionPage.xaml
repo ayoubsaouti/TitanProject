@@ -5,11 +5,13 @@
              xmlns:viewmodel="clr-namespace:MyProject.ViewModel"
              x:Class="MyProject.View.RepresentationPage"
              BackgroundColor="#26223D">
+
     <ContentPage.BindingContext>
         <viewmodel:RepresentationViewModel />
     </ContentPage.BindingContext>
+
     <VerticalStackLayout>
-        
+
         <Label  Text="Représation graphique des allégance (Donut)"
                 TextColor="#FFFFFF"
                 FontSize="22"
@@ -17,9 +19,8 @@
                 TextDecorations="Underline"
                 HorizontalOptions="Center"
                 Margin="0,0,0,20"/>
-        
-        
+
         <micro:ChartView  Chart="{Binding MyObservableChartDonut}" HeightRequest="300"/>
-        
+
     </VerticalStackLayout>
 </ContentPage>

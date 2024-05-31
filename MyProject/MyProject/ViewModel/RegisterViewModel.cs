@@ -6,62 +6,69 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace MyProject.ViewModel;
-
-public partial class RegisterViewModel : BaseViewModel
+namespace MyProject.ViewModel
 {
-
-    [ObservableProperty]
-    private string username;
-    [ObservableProperty]
-    private string password;
-
-    DataAccessService MyDBService;
-
-    /// Commande pour l'inscription.
-    public ICommand RegisterCommand { get; set; }
-    public RegisterViewModel(DataAccessService MyDBService) {
-        this.MyDBService = MyDBService;
-        // Initialise la commande d'inscription avec une action asynchrone pour enregistrer les utilisateurs dans la base de données.
-        RegisterCommand = new Command(async () => await SaveUsersInDB());
-    }
-
-    
-    private async Task SaveUsersInDB()
+    // ViewModel pour la page d'inscription
+    public partial class RegisterViewModel : BaseViewModel
     {
-        IsBusy = true;
+        // Propriété observée pour le nom d'utilisateur
+        [ObservableProperty]
+        private string username;
 
-        //verifie si les champs sont vide
-        if (Username.IsNullOrEmpty() || Password.IsNullOrEmpty())
+        // Propriété observée pour le mot de passe
+        [ObservableProperty]
+        private string password;
+
+        DataAccessService MyDBService;
+
+        // Commande pour l'inscription
+        public ICommand RegisterCommand { get; set; }
+
+        // Constructeur
+        public RegisterViewModel(DataAccessService MyDBService)
         {
-            await Shell.Current.DisplayAlert("Champs vide", "Un ou plusieurs n'ont pas été remplis", "OK");
-        }
-        else
-        {
-            Globals.idUserConected = Guid.NewGuid().ToString();
-            //c'est pas vide donc on créer l'utilisateur et Guid.NewGuid().ToString() pour créer un id unique
-            User newUser = new User(Globals.idUserConected, Username, Password);
-
-            try
-            {
-                //Ajout de l'utilisateur a la db
-                await MyDBService.Users.AddAsync(newUser);
-                //Save la db
-                await MyDBService.SaveChangesAsync();
-
-                await Shell.Current.DisplayAlert("Utilisateur ajouté", "Votre compte a bien été crée", "OK");
-
-               
-            }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenu lors de l'enregistrement de votre compte à la base de donnée", "OK");
-            }
-
-            await Shell.Current.GoToAsync("..", true);
+            // Initialise le service de base de données
+            this.MyDBService = MyDBService;
+            // Initialise la commande d'inscription avec une action asynchrone pour enregistrer les utilisateurs dans la base de données
+            RegisterCommand = new Command(async () => await SaveUsersInDB());
         }
 
-        IsBusy = false;
+        // Méthode asynchrone pour enregistrer les utilisateurs dans la base de données
+        private async Task SaveUsersInDB()
+        {
+            IsBusy = true;
 
+            // Vérifie si les champs sont vides
+            if (Username.IsNullOrEmpty() || Password.IsNullOrEmpty())
+            {
+                await Shell.Current.DisplayAlert("Champs vide", "Un ou plusieurs n'ont pas été remplis", "OK");
+            }
+            else
+            {
+                // Crée un nouvel identifiant unique pour l'utilisateur
+                Globals.idUserConected = Guid.NewGuid().ToString();
+                // Crée un nouvel utilisateur
+                User newUser = new User(Globals.idUserConected, Username, Password);
+
+                try
+                {
+                    // Ajoute l'utilisateur à la base de données
+                    await MyDBService.Users.AddAsync(newUser);
+                    // Sauvegarde les modifications dans la base de données
+                    await MyDBService.SaveChangesAsync();
+
+                    await Shell.Current.DisplayAlert("Utilisateur ajouté", "Votre compte a bien été créé", "OK");
+                }
+                catch (Exception ex)
+                {
+                    await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenue lors de l'enregistrement de votre compte dans la base de données", "OK");
+                }
+
+                // Retourne à la page précédente après l'inscription réussie
+                await Shell.Current.GoToAsync("..", true);
+            }
+
+            IsBusy = false;
+        }
     }
 }

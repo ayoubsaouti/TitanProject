@@ -8,7 +8,6 @@
 
             MainPage = new AppShell();
             
-
         }
     }
 }

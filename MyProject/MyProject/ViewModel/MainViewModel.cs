@@ -8,82 +8,91 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace MyProject.ViewModel;
-
-public partial class MainViewModel : BaseViewModel
-
+namespace MyProject.ViewModel
 {
-    [ObservableProperty]
-    private string userConnected;
-    public MainViewModel()
+    // ViewModel principal de l'application
+    public partial class MainViewModel : BaseViewModel
     {
-        UserConnected = "Bienvenue  " + Globals.userConnected;
-    }
+        // Propriété observée pour l'utilisateur connecté
+        [ObservableProperty]
+        private string userConnected;
 
-    [RelayCommand]
-    private async Task GoToScanPage()
-    {
-        IsBusy = true;
-        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("ScanElement", true);
-        IsBusy = false;
-    }
-
-    [RelayCommand]
-    private async Task GoToCollectionPage()
-    {
-        IsBusy = true;
-        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("MyCollectionPage", true);
-        IsBusy = false;
-    }
-    [RelayCommand]
-    private async Task GoToConnectPage()
-    {
-        IsBusy = true;
-        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("ConnectPage", true);
-        IsBusy = false;
-    }
-    
-
-
-    [RelayCommand]
-    private async Task GoToChart()
-    {
-        IsBusy = true;
-        //REDIRECTION VERS UNE NOUVELLE PAGE A PARTIR DU BUTTON
-        await Shell.Current.GoToAsync("RepresentationPage", true);
-        IsBusy = false;
-    }
-
-
-    [RelayCommand]
-    private async Task LoadJSON()
-    {
-        IsBusy = true;
-        JSONServices MyService = new();
-
-        await MyService.GetTitans();
-
-        IsBusy = false;
-    }
-
-    [RelayCommand]
-    public async Task SetupPortCOM(string selectedPort)
-    {
-        IsBusy = true;
-        try
+        // Constructeur
+        public MainViewModel()
         {
-            Globals.portConnected = selectedPort;
+            // Initialise la chaîne de bienvenue avec le nom d'utilisateur global
+            UserConnected = "Bienvenue  " + Globals.userConnected;
         }
-        catch (Exception ex)
-        {
-            // Gérer les erreurs éventuelles
-            await Shell.Current.DisplayAlert("Error", ex.ToString(), "OK");
-        }
-        IsBusy = false;
-    }
 
+        // Méthode pour aller à la page de numérisation
+        [RelayCommand]
+        private async Task GoToScanPage()
+        {
+            IsBusy = true;
+            // Redirection vers une nouvelle page à partir du bouton
+            await Shell.Current.GoToAsync("ScanElement", true);
+            IsBusy = false;
+        }
+
+        // Méthode pour aller à la page de collection
+        [RelayCommand]
+        private async Task GoToCollectionPage()
+        {
+            IsBusy = true;
+            // Redirection vers une nouvelle page à partir du bouton
+            await Shell.Current.GoToAsync("MyCollectionPage", true);
+            IsBusy = false;
+        }
+
+        // Méthode pour aller à la page de connexion
+        [RelayCommand]
+        private async Task GoToConnectPage()
+        {
+            IsBusy = true;
+            // Redirection vers une nouvelle page à partir du bouton
+            await Shell.Current.GoToAsync("ConnectPage", true);
+            IsBusy = false;
+        }
+
+        // Méthode pour aller à la page de représentation graphique
+        [RelayCommand]
+        private async Task GoToChart()
+        {
+            IsBusy = true;
+            // Redirection vers une nouvelle page à partir du bouton
+            await Shell.Current.GoToAsync("RepresentationPage", true);
+            IsBusy = false;
+        }
+
+        // Méthode pour charger des données à partir d'un fichier JSON
+        [RelayCommand]
+        private async Task LoadJSON()
+        {
+            IsBusy = true;
+            JSONServices MyService = new();
+
+            // Appel du service pour récupérer les titans à partir du fichier JSON
+            await MyService.GetTitans();
+
+            IsBusy = false;
+        }
+
+        // Méthode pour configurer le port COM sélectionné
+        [RelayCommand]
+        public async Task SetupPortCOM(string selectedPort)
+        {
+            IsBusy = true;
+            try
+            {
+                // Configure le port COM sélectionné dans les paramètres globaux
+                Globals.portConnected = selectedPort;
+            }
+            catch (Exception ex)
+            {
+                // Gère les éventuelles erreurs
+                await Shell.Current.DisplayAlert("Erreur", ex.ToString(), "OK");
+            }
+            IsBusy = false;
+        }
+    }
 }

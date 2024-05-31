@@ -7,188 +7,199 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SkiaSharp;
 
-namespace MyProject.ViewModel;
-
-
-public partial class MyCollectionViewModel : BaseViewModel
+namespace MyProject.ViewModel
 {
-    public ObservableCollection<Titan> myObservableTitans { get; } = new();
-    private CSVExportServices csvExportServices;
-    private List<string> selectedAttributes;
-
-
-    DataAccessService MyDBService;
-
-
-
-    public MyCollectionViewModel(DataAccessService MyDBService) {
-
-        /* AFFICHAGE POUR LE JSON 
-        foreach (var titan in Globals.myTitans)
-        {
-            myObservableTitans.Add(titan);
-        } */
-        this.MyDBService = MyDBService;
-        afficheFromDb();
-        csvExportServices = new CSVExportServices();
-        selectedAttributes = new List<string>();
-
-        
-    }
-    public async Task afficheFromDb()
+    // ViewModel pour la page de la collection de titans
+    public partial class MyCollectionViewModel : BaseViewModel
     {
-        IsBusy = true;
-        try
+        // Collection observable des titans
+        public ObservableCollection<Titan> myObservableTitans { get; } = new();
+
+        // Service d'exportation CSV
+        private CSVExportServices csvExportServices;
+
+        // Liste des attributs sélectionnés
+        private List<string> selectedAttributes;
+
+        DataAccessService MyDBService;
+
+        // Constructeur
+        public MyCollectionViewModel(DataAccessService MyDBService)
         {
-            var titans = await MyDBService.Titans.Where(e => e.IdUser == Globals.idUserConected).ToListAsync();
-            foreach (var titan in titans)
+            // Initialise le service de base de données
+            this.MyDBService = MyDBService;
+            // Affiche les titans depuis la base de données
+            afficheFromDb();
+            // Initialise le service d'exportation CSV
+            csvExportServices = new CSVExportServices();
+            // Initialise la liste des attributs sélectionnés
+            selectedAttributes = new List<string>();
+        }
+
+        // Méthode asynchrone pour afficher les titans depuis la base de données
+        public async Task afficheFromDb()
+        {
+            IsBusy = true;
+            try
             {
-                myObservableTitans.Add(titan);
+                // Récupère les titans de l'utilisateur actuellement connecté depuis la base de données
+                var titans = await MyDBService.Titans.Where(e => e.IdUser == Globals.idUserConected).ToListAsync();
+                // Ajoute les titans à la collection observable
+                foreach (var titan in titans)
+                {
+                    myObservableTitans.Add(titan);
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenue lors de la tentative de connexion", "OK");
-        }
-        IsBusy = false;
-    }
-
-
-    [RelayCommand]
-    private async Task ExportToCSV()
-    {
-        if (selectedAttributes.Count == 0)
-        {
-            string[] defaultAttributes = { "Name", "Height", "Abilities", "Current_inheritor", "Former_inheritor", "Allegiance" };
-            selectedAttributes.AddRange(defaultAttributes);
-        }
-
-        IsBusy = true;
-        try
-        {
-            var result = await FilePicker.PickAsync(new PickOptions
+            catch (Exception ex)
             {
-                PickerTitle = "Select a folder",
-            });
+                await Shell.Current.DisplayAlert("Erreur", "Une erreur est survenue lors de la tentative de connexion", "OK");
+            }
+            IsBusy = false;
+        }
 
-            if (result != null)
+        // Méthode pour exporter les titans vers un fichier CSV
+        [RelayCommand]
+        private async Task ExportToCSV()
+        {
+            // Vérifie si des attributs ont été sélectionnés, sinon utilise les attributs par défaut
+            if (selectedAttributes.Count == 0)
             {
-                string folderPath = result.FullPath;
+                string[] defaultAttributes = { "Name", "Height", "Abilities", "Current_inheritor", "Former_inheritor", "Allegiance" };
+                selectedAttributes.AddRange(defaultAttributes);
+            }
 
-                csvExportServices.ExportToCSV(myObservableTitans, folderPath, selectedAttributes);
-                await Shell.Current.DisplayAlert("Export en fichier CSV", "Exportation réussie !", "OK");
+            IsBusy = true;
+            try
+            {
+                // Sélectionne le dossier pour l'exportation CSV
+                var result = await FilePicker.PickAsync(new PickOptions
+                {
+                    PickerTitle = "Sélectionnez un dossier",
+                });
+
+                if (result != null)
+                {
+                    string folderPath = result.FullPath;
+
+                    // Exporte les titans vers un fichier CSV
+                    csvExportServices.ExportToCSV(myObservableTitans, folderPath, selectedAttributes);
+                    await Shell.Current.DisplayAlert("Export en fichier CSV", "Exportation réussie !", "OK");
+                }
+                else
+                {
+                    await Shell.Current.DisplayAlert("Erreur", "Aucun dossier sélectionné", "OK");
+                }
+            }
+            catch (Exception e)
+            {
+                await Shell.Current.DisplayAlert("Erreur", "Échec de l'exportation CSV : " + e.Message, "OK");
+            }
+            IsBusy = false;
+            // Efface la liste des attributs sélectionnés et décoche toutes les cases de sélection
+            selectedAttributes.Clear();
+            UncheckAll();
+        }
+
+        // Méthode pour décocher toutes les cases de sélection des attributs
+        private void UncheckAll()
+        {
+            IsNameChecked = false;
+            IsAbilitiesChecked = false;
+            IsCurrentInheritorChecked = false;
+            IsHeightChecked = false;
+            IsFormerInheritorChecked = false;
+            IsAllegianceChecked = false;
+        }
+
+        // Propriétés observées pour les cases de sélection des attributs
+        [ObservableProperty]
+        private bool isNameChecked;
+
+        partial void OnIsNameCheckedChanged(bool value)
+        {
+            if (value)
+            {
+                selectedAttributes.Add("Name");
             }
             else
             {
-                await Shell.Current.DisplayAlert("Erreur", "Aucun dossier sélectionné", "OK");
+                selectedAttributes.Remove("Name");
             }
         }
-        catch (Exception e)
+
+        [ObservableProperty]
+        private bool isAbilitiesChecked;
+
+        partial void OnIsAbilitiesCheckedChanged(bool value)
         {
-            await Shell.Current.DisplayAlert("Erreur", "Échec de l'exportation CSV : " + e.Message, "OK");
+            if (value)
+            {
+                selectedAttributes.Add("Abilities");
+            }
+            else
+            {
+                selectedAttributes.Remove("Abilities");
+            }
         }
-        IsBusy = false;
-        selectedAttributes.Clear();
-        UncheckAll();
-    }
 
-    private void UncheckAll(){
-        IsNameChecked = false;
-        IsAbilitiesChecked = false;
-        IsCurrentInheritorChecked = false;
-        IsHeightChecked = false;
-        IsFormerInheritorChecked = false;
-        IsAllegianceChecked = false;
-    }
+        [ObservableProperty]
+        private bool isCurrentInheritorChecked;
 
-
-    [ObservableProperty]
-    private bool isNameChecked;
-
-    partial void OnIsNameCheckedChanged(bool value)
-    {
-        if (value)
+        partial void OnIsCurrentInheritorCheckedChanged(bool value)
         {
-            selectedAttributes.Add("Name");
+            if (value)
+            {
+                selectedAttributes.Add("Current_inheritor");
+            }
+            else
+            {
+                selectedAttributes.Remove("Current_inheritor");
+            }
         }
-        else
-        {
-            selectedAttributes.Remove("Name");
-        }
-    }
 
-    [ObservableProperty]
-    private bool isAbilitiesChecked;
+        [ObservableProperty]
+        private bool isHeightChecked;
 
-    partial void OnIsAbilitiesCheckedChanged(bool value)
-    {
-        if (value)
+        partial void OnIsHeightCheckedChanged(bool value)
         {
-            selectedAttributes.Add("Abilities");
+            if (value)
+            {
+                selectedAttributes.Add("Height");
+            }
+            else
+            {
+                selectedAttributes.Remove("Height");
+            }
         }
-        else
-        {
-            selectedAttributes.Remove("Abilities");
-        }
-    }
 
-    [ObservableProperty]
-    private bool isCurrentInheritorChecked;
+        [ObservableProperty]
+        private bool isFormerInheritorChecked;
 
-    partial void OnIsCurrentInheritorCheckedChanged(bool value)
-    {
-        if (value)
+        partial void OnIsFormerInheritorCheckedChanged(bool value)
         {
-            selectedAttributes.Add("Current_inheritor");
+            if (value)
+            {
+                selectedAttributes.Add("Former_inheritor");
+            }
+            else
+            {
+                selectedAttributes.Remove("Former_inheritor");
+            }
         }
-        else
-        {
-            selectedAttributes.Remove("Current_inheritor");
-        }
-    }
 
-    [ObservableProperty]
-    private bool isHeightChecked;
+        [ObservableProperty]
+        private bool isAllegianceChecked;
 
-    partial void OnIsHeightCheckedChanged(bool value)
-    {
-        if (value)
+        partial void OnIsAllegianceCheckedChanged(bool value)
         {
-            selectedAttributes.Add("Height");
-        }
-        else
-        {
-            selectedAttributes.Remove("Height");
-        }
-    }
-
-    [ObservableProperty]
-    private bool isFormerInheritorChecked;
-
-    partial void OnIsFormerInheritorCheckedChanged(bool value)
-    {
-        if (value)
-        {
-            selectedAttributes.Add("Former_inheritor");
-        }
-        else
-        {
-            selectedAttributes.Remove("Former_inheritor");
-        }
-    }
-
-    [ObservableProperty]
-    private bool isAllegianceChecked;
-
-    partial void OnIsAllegianceCheckedChanged(bool value)
-    {
-        if (value)
-        {
-            selectedAttributes.Add("Allegiance");
-        }
-        else
-        {
-            selectedAttributes.Remove("Allegiance");
+            if (value)
+            {
+                selectedAttributes.Add("Allegiance");
+            }
+            else
+            {
+                selectedAttributes.Remove("Allegiance");
+            }
         }
     }
 }

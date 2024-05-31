@@ -71,7 +71,7 @@
                         Margin="10" 
                         IsEnabled="{Binding IsNotBusy}"/>
 
-                <!-- Bouton "Load Json"  -->
+                <!-- Bouton "Load Json" -->
                 <Button Text="Importer ma collection" 
                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=LoadJSONCommand}"
                         TextColor="White"
@@ -109,7 +109,6 @@
                     BackgroundColor="#26223D"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center" />
-
         </Grid>
     </ScrollView>
 </ContentPage>
